@@ -2,7 +2,7 @@ clear;
 clc;
 PARTITION=5;
 REPEAT=5;
-MAX_DIM=1;
+MAX_DIM=20;
 diary('diary.txt');
 diary on;
 initData = LoadData('training_set/train_x.txt');
@@ -11,8 +11,8 @@ initData = initData';
 initTestIntData = LoadData('testing_set_int_labeled/test_x_int_L.txt');
 initTestIntLabel = LoadClassLabels('testing_set_int_labeled/test_y_int_L.txt');
 initTestIntData = initTestIntData';
-% [errorRate,baselineErrorRate,baselineStd]=Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,0)
-% [normErrorRate,normBaselineErrorRate,normBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,0)
+[errorRate,baselineErrorRate,baselineStd]=Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,0)
+[normErrorRate,normBaselineErrorRate,normBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,0)
 [reduceDimErrorRate,reduceDimBaselineErrorRate,reduceDimBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,1)
 [reduceDimNormErrorRate,reduceDimNormBaselineErrorRate,reduceDimNormBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,1)
 %baselineErrorRate

@@ -7,7 +7,7 @@ function [ errorRate,baselineErrorRate,baselineStd ] = Run(initData,classLabels,
     [r,c] = size(initData);
     %N = prmemory(r*c*135);
     errorRate=[];
-    for dim=1:maxDim
+    for dim=2:maxDim
         data = initData;
         if isReduceDim==1
             data = data*klm(data,dim);
