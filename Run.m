@@ -1,4 +1,4 @@
-function [ errorRate,baselineErrorRate,baselineStd ] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION, REPEAT, isNormalized,isReduceDim)
+function [ errorRate,crossvalErrorRate,crossvalStd ] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION, REPEAT, isNormalized,isReduceDim)
     maxDim=MAX_DIM;
     
     if isReduceDim==0
@@ -7,30 +7,39 @@ function [ errorRate,baselineErrorRate,baselineStd ] = Run(initData,classLabels,
     [r,c] = size(initData);
     %N = prmemory(r*c*135);
     errorRate=[];
-    for dim=2:maxDim
+    p=2;
+    for dim=1:MAX_DIM
         data = initData;
-        if isReduceDim==1
-            data = data*klm(data,dim);
-        end
+%         if isReduceDim==1
+%             data = data*fisherm(data);
+%         end
         
         A = prdataset(data,classLabels); 
         if isNormalized==1
-            A = A*normm;
+            A = A*normm(2);
+%             A = (A'*normm(2))';
+        end
+        if isReduceDim==1
+            A = A*klm(A,dim);
         end
         
-        [baselineErrorRate,baselineStd] = prcrossval(A,qdc,PARTITION,REPEAT);
+        [crossvalErrorRate,crossvalStd] = prcrossval(A,qdc,PARTITION,REPEAT)
         
         testIntData = initTestIntData;
         testIntLabel = initTestIntLabel;
-        if isReduceDim==1
-            testIntData = testIntData*klm(testIntData,dim);
-        end
+%         if isReduceDim==1
+%             testIntData = testIntData*fisherm(testIntData);
+%         end
 
 %        [highestEff,index] = max(classificationResults);
 
         B = prdataset(testIntData,testIntLabel);
         if isNormalized==1
-            B = B*normm;
+            B = B*normm(2);
+%             B = (B'*normm(2))';
+        end
+        if isReduceDim==1
+            B = B*klm(B,dim);
         end
         w = qdc(A);
 
@@ -39,7 +48,7 @@ function [ errorRate,baselineErrorRate,baselineStd ] = Run(initData,classLabels,
         [result,erredClass] = testc(classification);
 
         %[cm,ne,lab1,lab2]=confmat(classification);
-        confmat(classification);
+        confmat(classification)
         errorRate=[errorRate;result];
 %         if dim<=2
 %             figure

@@ -19,7 +19,9 @@ function [ ] = DrawPlot( reduceNormDimErrorRate , filename )
         hstem = stem(x,reduceNormDimErrorRate(:,i:i));
     end
     hold off;
-    legend(legendInfo);
+    xlabel('Dimension');
+    ylabel('Error rate')
+%     legend(legendInfo);
     saveas(H,filename,'jpg');
 end
 

@@ -1,6 +1,6 @@
-function [ error ] = RunLdc( initData,classLabels,initTestIntData,initTestIntLabel )
+function [ error ] = RunLdc( initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM )
     error=[];
-    for dim=1:54
+    for dim=1:MAX_DIM
         data = initData;
         testData = initTestIntData;
         data = data*klm(data,dim);
