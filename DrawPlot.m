@@ -10,7 +10,7 @@ function [ ] = DrawPlot( reduceNormDimErrorRate , filename )
     for i=1:c
         %legendString = strcat(legendString,'''',num2str(i),''',')
         legendInfo{i} = [num2str(i)];
-        Y=[Y,reduceNormDimErrorRate(:,i:i)]
+        Y=[Y,reduceNormDimErrorRate(:,i:i)];
     end
     
     
@@ -20,7 +20,7 @@ function [ ] = DrawPlot( reduceNormDimErrorRate , filename )
     end
     hold off;
     xlabel('Dimension');
-    ylabel('Error rate')
+    ylabel('Error rate');
 %     legend(legendInfo);
     saveas(H,filename,'jpg');
 end
