@@ -16,30 +16,31 @@ bestGammas=[];
 percentCompletion=0;
 randRows = randperm(size(initData,1));
 dim=10;
-% for dim=0:5:54
+for dim=1:5:54
     data = initData;
-    data = data(randRows,:);
+%     data = data(randRows,:);
     data = prdataset(data,classLabels);
 %     data = (data - repmat(min(data,[],1),size(data,1),1))*spdiags(1./(max(data,[],1)-min(data,[],1))',0,size(data,2),size(data,2));
-    if dim>0
-        data = data*klm(data,dim);
-    end
+    mean(data)
+    
     data = prdataset(data,classLabels);
     data = data*normm(2);
     data = data.data;
-    mean(data)
-    size(data)
+    if dim>0
+        data = data*klm(data,dim);
+    end
+    size(data);
     
 %     A = prdataset(initData,classLabels);
 %     if dim>1
 %         A = A*normm;
 %     end
     nFolds = 5;
-    [c gamma] = meshgrid(-5:2:5, -15:2:3);
+    [c gamma] = meshgrid(0:1:5, 0:1:3)
     perfMat = zeros(numel(c),1);
     for i=1:numel(c)
         fprintf('Running svm for dim = %f, c = %f and gamma = %f\n',dim,2^c(i),2^gamma(i));
-        perfMat(i)=svmtrain(classLabels,data,sprintf('-q -t 0 -v %f -c %f -g %f',nFolds,2^c(i),2^gamma(i)));
+        perfMat(i)=svmtrain(classLabels,data,sprintf('-q -t 2 -v %f -c %f -g %f',nFolds,2^c(i),2^gamma(i)));
     end
     [maxVal,idx] = max(perfMat)
     bestCs=[bestCs;2^c(idx)];
@@ -48,7 +49,7 @@ dim=10;
     dlmwrite('bestGammas_t0.txt',bestGammas);
     completion = (percentCompletion+1)*100/55
     percentCompletion=percentCompletion+1;
-% end
+end
 
 %     bestcv = 0;
 %     for log2
