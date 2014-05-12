@@ -16,43 +16,52 @@ bestGammas=[];
 percentCompletion=0;
 randRows = randperm(size(initData,1));
 dim=10;
-for dim=1:6
+
+for dim=1:5:54
+
     data = initData;
-    data = data(randRows,:);
+%     data = data(randRows,:);
     data = prdataset(data,classLabels);
 %     data = (data - repmat(min(data,[],1),size(data,1),1))*spdiags(1./(max(data,[],1)-min(data,[],1))',0,size(data,2),size(data,2));
+
+    mean(data);
+    
+    data = prdataset(data,classLabels);
+
     data = data*normm(2);
 %     data = (data'*normm(2))';
-%     if dim>0
-    data = data*fisherm(data,dim);
-%     end
+    if dim>0
+        data = data*fisherm(data,dim);
+    end
 %     data = prdataset(data,classLabels);
 %     data = data*normm(2);
     data = data.data;
-    mean(data)
-    size(data)
-%     data = (data - repmat(min(data,[],1),size(data,1),1))*spdiags(1./(max(data,[],1)-min(data,[],1))',0,size(data,2),size(data,2));
+%     if dim>0
+%         data = data*klm(data,dim);
+%     end
+    size(data);
     
 %     A = prdataset(initData,classLabels);
 %     if dim>1
 %         A = A*normm;
 %     end
     nFolds = 5;
-%     c = [-5:2:15];
-    c=[2];
+
+    [c gamma] = meshgrid(2:1:10, 4:1:10)
     perfMat = zeros(numel(c),1);
     for i=1:numel(c)
-%         fprintf('Running svm for dim = %f, c = %f and gamma = %f\n',dim,2^c(i),2^gamma(i));
-        perfMat(i)=svmtrain(classLabels,data,sprintf('-q -t 0 -v %f -c %f ',nFolds,2^c(i)));
-        completion = (percentCompletion+1)*100/(20*numel(c))
-        percentCompletion=percentCompletion+1;
+        fprintf('Running svm for dim = %f, c = %f and gamma = %f\n',dim,2^c(i),2^gamma(i));
+        perfMat(i)=svmtrain(classLabels,data,sprintf('-q -t 2 -v %f -c %f -g %f',nFolds,2^c(i),2^gamma(i)));
+
     end
     [maxVal,idx] = max(perfMat)
     bestCs=[bestCs;2^c(idx)];
 %     bestGammas=[bestGammas;2^gamma(idx)];
     dlmwrite('bestCs_t0.txt',bestCs);
-%     dlmwrite('bestGammas_t0.txt',bestGammas);
-    
+
+    dlmwrite('bestGammas_t0.txt',bestGammas);
+    completion = (percentCompletion+1)*100/55
+    percentCompletion=percentCompletion+1;
 end
 
 %     bestcv = 0;

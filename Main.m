@@ -3,7 +3,7 @@ clc;
 PARTITION=5;
 REPEAT=5;
 MAX_DIM=54;
-diary('diary.txt');
+diary('diary2.txt');
 diary on;
 initData = LoadData('training_set/train_x.txt');
 classLabels = LoadClassLabels('training_set/train_y.txt');
@@ -27,9 +27,9 @@ initTestIntData = initTestIntData';
 % DrawPlot(reduceDimErrorRate,'reduceDimErrorRate');
 
 %run svm
-fprintf('Now running svm')
-linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
-% gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
+fprintf('Now running svm\n')
+% linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
+gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 %run knn
 % -----------------------------------------------------------------------------------------------
 fprintf('Now running knn\t')

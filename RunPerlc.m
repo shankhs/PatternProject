@@ -4,7 +4,7 @@ function [ error ] = RunPerlc( initData,classLabels,initTestIntData,initTestIntL
     error=[];
     minErr=100;
     bestDim=0;
-    for dim=51:51
+    for dim=1:MAX_DIM
         data = initData;
         testData = initTestIntData;
         A = prdataset(data,classLabels);
@@ -13,13 +13,20 @@ function [ error ] = RunPerlc( initData,classLabels,initTestIntData,initTestIntL
         B = prdataset(testData,initTestIntLabel);
         B = B*normm;
         B = B*klm(B,dim);
-        w = perlc(A,1000);
-        classification = B*w;
-        [result,erredClass] = testc(classification);
+       [result,std] = prcrossval(A,perlc,5,5)
         if result<minErr
             minErr=result
             bestDim=dim
         end
+         w = perlc(A);
+
+        classification = B*w;
+        
+        [result,erredClass] = testc(classification);
+
+        %[cm,ne,lab1,lab2]=confmat(classification);
+        confmat(classification)
+%         errorRate=[errorRate;result];
         error=[error;result];
     end
 end

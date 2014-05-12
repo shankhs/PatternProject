@@ -3,8 +3,8 @@ function [ error ] = RunKnnc( initData,classLabels,initTestIntData,initTestIntLa
     minErr=100;
     bestK=0;
     bestDim=0;
-    for dim=1:MAX_DIM
-        for k=1:25
+    for dim=1:6
+%         for k=1:5
             data = initData;
 %             data = data(randperm(size(data,1)),:);
             testData = initTestIntData;
@@ -13,26 +13,27 @@ function [ error ] = RunKnnc( initData,classLabels,initTestIntData,initTestIntLa
     %         testData = testData*klm(testData,dim);
             A = prdataset(data,classLabels);
             A = A*normm;
-            A = A*klm(A,dim);
+            A = A*fisherm(A,dim);
             B = prdataset(testData,initTestIntLabel);
             B = B*normm;
-            B = B*klm(B,dim);
+            B = B*fisherm(B,dim);
     %         if dim>1
     %             A = A*normm;
     %             B = B*normm;
     %         end
             error_k=[];
-            w = knnc(A,k);
-            classification = B*w;
-            [result,erredClass] = testc(classification);
+%             w = knnc(A,k);
+%             classification = B*w;
+%             [result,erredClass] = testc(classification);
+            [result,crossvalStd] = prcrossval(A,knnc,5,5)
             if result<minErr
                 minErr=result
 %                 bestK=k
                 bestDim=dim
             end
             error_k=[error_k;result];
-        end
-        error = [error error_k];
+%         end
+        error = [error result];
     end
 end
 

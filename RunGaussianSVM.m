@@ -1,29 +1,44 @@
 function [ accuracy ] = RunGaussianSVM( initData,classLabels,initTestIntData,initTestIntLabel )
+    accr=0;
+    bestDim=0;
     error=[];
-    completion=0;
-    for dim=1:20
+
+%     for dim=1:6
+
         data = initData;
         testData = initTestIntData;
-        data = data*klm(data,dim);
-        testData = testData*klm(testData,dim);
         A = prdataset(data,classLabels);
         B = prdataset(testData,initTestIntLabel);
-        if dim>1
-            A = A*normm;
-            B = B*normm;
-        end
+        A = A*normm;
+%         A = A*fisherm(A,dim);
+%         A = A*normm;
+        
+        B = B*normm;
+%         B = B*fisherm(B,dim);
+%         B = B*normm;
+        
         error_k=[];
-        for g=1:50
-            params = '-s 0 -t 2 -g ';
-            params = [params,num2str(g)]
-            model = svmtrain(classLabels,A.data,params);
-            [predictedLabel,accuracy,decisionVals] = svmpredict(initTestIntLabel,B.data,model);
-            error_k=[error_k;accuracy];
-            completion = completion+1;
-            completion*100/(10*20)
+
+        for c=1:15
+            for g = 1:10
+                params = '-q -s 0 -t 2 -c ';
+                params = [params,num2str(2^c)];
+                params = [params,' -g '];
+                params = [params,num2str(g)]
+                model = svmtrain(classLabels,A.data,params);
+                [predictedLabel,accuracy,decisionVals] = svmpredict(initTestIntLabel,B.data,model);
+                accuracy(1)
+                dlmwrite('gaussianSvmError.txt',accuracy,'-append');
+                error_k=[error_k;accuracy(1)];
+                if accuracy(1)>accr
+                    accr = accuracy(1)
+%                     bestDim = dim
+                end
+            end
         end
         error = [error error_k];
-        dlmwrite('gaussianSVMErr.txt',error)
-    end
+        
+%     end
+
 end
 
