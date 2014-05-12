@@ -1,0 +1,1942 @@
+Now running svm
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 1
+
+Accuracy = 44.1799% (1670/3780) (classification)
+
+ans =
+
+   44.1799
+
+
+accr =
+
+   44.1799
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 2
+
+Accuracy = 48.6772% (1840/3780) (classification)
+
+ans =
+
+   48.6772
+
+
+accr =
+
+   48.6772
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 3
+
+Accuracy = 50.7937% (1920/3780) (classification)
+
+ans =
+
+   50.7937
+
+
+accr =
+
+   50.7937
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 4
+
+Accuracy = 52.381% (1980/3780) (classification)
+
+ans =
+
+   52.3810
+
+
+accr =
+
+   52.3810
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 5
+
+Accuracy = 53.5714% (2025/3780) (classification)
+
+ans =
+
+   53.5714
+
+
+accr =
+
+   53.5714
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 6
+
+Accuracy = 54.0741% (2044/3780) (classification)
+
+ans =
+
+   54.0741
+
+
+accr =
+
+   54.0741
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 7
+
+Accuracy = 54.6032% (2064/3780) (classification)
+
+ans =
+
+   54.6032
+
+
+accr =
+
+   54.6032
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 8
+
+Accuracy = 55.5026% (2098/3780) (classification)
+
+ans =
+
+   55.5026
+
+
+accr =
+
+   55.5026
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 9
+
+Accuracy = 56.2963% (2128/3780) (classification)
+
+ans =
+
+   56.2963
+
+
+accr =
+
+   56.2963
+
+
+params =
+
+-q -s 0 -t 2 -c 2 -g 10
+
+Accuracy = 56.5079% (2136/3780) (classification)
+
+ans =
+
+   56.5079
+
+
+accr =
+
+   56.5079
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 1
+
+Accuracy = 48.4392% (1831/3780) (classification)
+
+ans =
+
+   48.4392
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 2
+
+Accuracy = 52.328% (1978/3780) (classification)
+
+ans =
+
+   52.3280
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 3
+
+Accuracy = 54.709% (2068/3780) (classification)
+
+ans =
+
+   54.7090
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 4
+
+Accuracy = 55.8201% (2110/3780) (classification)
+
+ans =
+
+   55.8201
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 5
+
+Accuracy = 56.3757% (2131/3780) (classification)
+
+ans =
+
+   56.3757
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 6
+
+Accuracy = 56.7725% (2146/3780) (classification)
+
+ans =
+
+   56.7725
+
+
+accr =
+
+   56.7725
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 7
+
+Accuracy = 57.8836% (2188/3780) (classification)
+
+ans =
+
+   57.8836
+
+
+accr =
+
+   57.8836
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 8
+
+Accuracy = 58.3598% (2206/3780) (classification)
+
+ans =
+
+   58.3598
+
+
+accr =
+
+   58.3598
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 9
+
+Accuracy = 58.9418% (2228/3780) (classification)
+
+ans =
+
+   58.9418
+
+
+accr =
+
+   58.9418
+
+
+params =
+
+-q -s 0 -t 2 -c 4 -g 10
+
+Accuracy = 59.3651% (2244/3780) (classification)
+
+ans =
+
+   59.3651
+
+
+accr =
+
+   59.3651
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 1
+
+Accuracy = 52.3016% (1977/3780) (classification)
+
+ans =
+
+   52.3016
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 2
+
+Accuracy = 55.5026% (2098/3780) (classification)
+
+ans =
+
+   55.5026
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 3
+
+Accuracy = 56.7725% (2146/3780) (classification)
+
+ans =
+
+   56.7725
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 4
+
+Accuracy = 57.8042% (2185/3780) (classification)
+
+ans =
+
+   57.8042
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 5
+
+Accuracy = 58.7302% (2220/3780) (classification)
+
+ans =
+
+   58.7302
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 6
+
+Accuracy = 59.4974% (2249/3780) (classification)
+
+ans =
+
+   59.4974
+
+
+accr =
+
+   59.4974
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 7
+
+Accuracy = 60.1852% (2275/3780) (classification)
+
+ans =
+
+   60.1852
+
+
+accr =
+
+   60.1852
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 8
+
+Accuracy = 61.164% (2312/3780) (classification)
+
+ans =
+
+   61.1640
+
+
+accr =
+
+   61.1640
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 9
+
+Accuracy = 61.9312% (2341/3780) (classification)
+
+ans =
+
+   61.9312
+
+
+accr =
+
+   61.9312
+
+
+params =
+
+-q -s 0 -t 2 -c 8 -g 10
+
+Accuracy = 62.6984% (2370/3780) (classification)
+
+ans =
+
+   62.6984
+
+
+accr =
+
+   62.6984
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 1
+
+Accuracy = 55.0529% (2081/3780) (classification)
+
+ans =
+
+   55.0529
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 2
+
+Accuracy = 57.4868% (2173/3780) (classification)
+
+ans =
+
+   57.4868
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 3
+
+Accuracy = 59.0212% (2231/3780) (classification)
+
+ans =
+
+   59.0212
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 4
+
+Accuracy = 59.9471% (2266/3780) (classification)
+
+ans =
+
+   59.9471
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 5
+
+Accuracy = 61.2963% (2317/3780) (classification)
+
+ans =
+
+   61.2963
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 6
+
+Accuracy = 62.672% (2369/3780) (classification)
+
+ans =
+
+   62.6720
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 7
+
+Accuracy = 63.6243% (2405/3780) (classification)
+
+ans =
+
+   63.6243
+
+
+accr =
+
+   63.6243
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 8
+
+Accuracy = 64.1534% (2425/3780) (classification)
+
+ans =
+
+   64.1534
+
+
+accr =
+
+   64.1534
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 9
+
+Accuracy = 64.709% (2446/3780) (classification)
+
+ans =
+
+   64.7090
+
+
+accr =
+
+   64.7090
+
+
+params =
+
+-q -s 0 -t 2 -c 16 -g 10
+
+Accuracy = 65.4762% (2475/3780) (classification)
+
+ans =
+
+   65.4762
+
+
+accr =
+
+   65.4762
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 1
+
+Accuracy = 56.7725% (2146/3780) (classification)
+
+ans =
+
+   56.7725
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 2
+
+Accuracy = 59.3651% (2244/3780) (classification)
+
+ans =
+
+   59.3651
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 3
+
+Accuracy = 61.0053% (2306/3780) (classification)
+
+ans =
+
+   61.0053
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 4
+
+Accuracy = 62.7249% (2371/3780) (classification)
+
+ans =
+
+   62.7249
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 5
+
+Accuracy = 63.8889% (2415/3780) (classification)
+
+ans =
+
+   63.8889
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 6
+
+Accuracy = 64.9471% (2455/3780) (classification)
+
+ans =
+
+   64.9471
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 7
+
+Accuracy = 66.164% (2501/3780) (classification)
+
+ans =
+
+   66.1640
+
+
+accr =
+
+   66.1640
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 8
+
+Accuracy = 66.9841% (2532/3780) (classification)
+
+ans =
+
+   66.9841
+
+
+accr =
+
+   66.9841
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 9
+
+Accuracy = 67.4868% (2551/3780) (classification)
+
+ans =
+
+   67.4868
+
+
+accr =
+
+   67.4868
+
+
+params =
+
+-q -s 0 -t 2 -c 32 -g 10
+
+Accuracy = 67.8307% (2564/3780) (classification)
+
+ans =
+
+   67.8307
+
+
+accr =
+
+   67.8307
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 1
+
+Accuracy = 58.5185% (2212/3780) (classification)
+
+ans =
+
+   58.5185
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 2
+
+Accuracy = 61.0582% (2308/3780) (classification)
+
+ans =
+
+   61.0582
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 3
+
+Accuracy = 63.8095% (2412/3780) (classification)
+
+ans =
+
+   63.8095
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 4
+
+Accuracy = 65.4233% (2473/3780) (classification)
+
+ans =
+
+   65.4233
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 5
+
+Accuracy = 66.2963% (2506/3780) (classification)
+
+ans =
+
+   66.2963
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 6
+
+Accuracy = 67.4339% (2549/3780) (classification)
+
+ans =
+
+   67.4339
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 7
+
+Accuracy = 68.1217% (2575/3780) (classification)
+
+ans =
+
+   68.1217
+
+
+accr =
+
+   68.1217
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 8
+
+Accuracy = 68.5185% (2590/3780) (classification)
+
+ans =
+
+   68.5185
+
+
+accr =
+
+   68.5185
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 9
+
+Accuracy = 69.3386% (2621/3780) (classification)
+
+ans =
+
+   69.3386
+
+
+accr =
+
+   69.3386
+
+
+params =
+
+-q -s 0 -t 2 -c 64 -g 10
+
+Accuracy = 70.3968% (2661/3780) (classification)
+
+ans =
+
+   70.3968
+
+
+accr =
+
+   70.3968
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 1
+
+Accuracy = 60.5026% (2287/3780) (classification)
+
+ans =
+
+   60.5026
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 2
+
+Accuracy = 63.6508% (2406/3780) (classification)
+
+ans =
+
+   63.6508
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 3
+
+Accuracy = 66.1111% (2499/3780) (classification)
+
+ans =
+
+   66.1111
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 4
+
+Accuracy = 67.5661% (2554/3780) (classification)
+
+ans =
+
+   67.5661
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 5
+
+Accuracy = 68.6243% (2594/3780) (classification)
+
+ans =
+
+   68.6243
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 6
+
+Accuracy = 69.2857% (2619/3780) (classification)
+
+ans =
+
+   69.2857
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 7
+
+Accuracy = 69.7884% (2638/3780) (classification)
+
+ans =
+
+   69.7884
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 8
+
+Accuracy = 71.0582% (2686/3780) (classification)
+
+ans =
+
+   71.0582
+
+
+accr =
+
+   71.0582
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 9
+
+Accuracy = 71.7196% (2711/3780) (classification)
+
+ans =
+
+   71.7196
+
+
+accr =
+
+   71.7196
+
+
+params =
+
+-q -s 0 -t 2 -c 128 -g 10
+
+Accuracy = 71.7725% (2713/3780) (classification)
+
+ans =
+
+   71.7725
+
+
+accr =
+
+   71.7725
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 1
+
+Accuracy = 62.5926% (2366/3780) (classification)
+
+ans =
+
+   62.5926
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 2
+
+Accuracy = 66.2963% (2506/3780) (classification)
+
+ans =
+
+   66.2963
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 3
+
+Accuracy = 68.4392% (2587/3780) (classification)
+
+ans =
+
+   68.4392
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 4
+
+Accuracy = 69.3915% (2623/3780) (classification)
+
+ans =
+
+   69.3915
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 5
+
+Accuracy = 70.2381% (2655/3780) (classification)
+
+ans =
+
+   70.2381
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 6
+
+Accuracy = 71.0582% (2686/3780) (classification)
+
+ans =
+
+   71.0582
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 7
+
+Accuracy = 72.1693% (2728/3780) (classification)
+
+ans =
+
+   72.1693
+
+
+accr =
+
+   72.1693
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 8
+
+Accuracy = 72.619% (2745/3780) (classification)
+
+ans =
+
+   72.6190
+
+
+accr =
+
+   72.6190
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 9
+
+Accuracy = 73.2011% (2767/3780) (classification)
+
+ans =
+
+   73.2011
+
+
+accr =
+
+   73.2011
+
+
+params =
+
+-q -s 0 -t 2 -c 256 -g 10
+
+Accuracy = 73.6772% (2785/3780) (classification)
+
+ans =
+
+   73.6772
+
+
+accr =
+
+   73.6772
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 1
+
+Accuracy = 65.3175% (2469/3780) (classification)
+
+ans =
+
+   65.3175
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 2
+
+Accuracy = 68.6508% (2595/3780) (classification)
+
+ans =
+
+   68.6508
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 3
+
+Accuracy = 70.0265% (2647/3780) (classification)
+
+ans =
+
+   70.0265
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 4
+
+Accuracy = 70.8995% (2680/3780) (classification)
+
+ans =
+
+   70.8995
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 5
+
+Accuracy = 71.8519% (2716/3780) (classification)
+
+ans =
+
+   71.8519
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 6
+
+Accuracy = 72.8836% (2755/3780) (classification)
+
+ans =
+
+   72.8836
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 7
+
+Accuracy = 73.4921% (2778/3780) (classification)
+
+ans =
+
+   73.4921
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 8
+
+Accuracy = 74.418% (2813/3780) (classification)
+
+ans =
+
+   74.4180
+
+
+accr =
+
+   74.4180
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 9
+
+Accuracy = 75% (2835/3780) (classification)
+
+ans =
+
+    75
+
+
+accr =
+
+    75
+
+
+params =
+
+-q -s 0 -t 2 -c 512 -g 10
+
+Accuracy = 75.3704% (2849/3780) (classification)
+
+ans =
+
+   75.3704
+
+
+accr =
+
+   75.3704
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 1
+
+Accuracy = 67.8571% (2565/3780) (classification)
+
+ans =
+
+   67.8571
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 2
+
+Accuracy = 70.3439% (2659/3780) (classification)
+
+ans =
+
+   70.3439
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 3
+
+Accuracy = 71.4286% (2700/3780) (classification)
+
+ans =
+
+   71.4286
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 4
+
+Accuracy = 72.4603% (2739/3780) (classification)
+
+ans =
+
+   72.4603
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 5
+
+Accuracy = 73.254% (2769/3780) (classification)
+
+ans =
+
+   73.2540
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 6
+
+Accuracy = 74.1005% (2801/3780) (classification)
+
+ans =
+
+   74.1005
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 7
+
+Accuracy = 75.1058% (2839/3780) (classification)
+
+ans =
+
+   75.1058
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 8
+
+Accuracy = 75.7407% (2863/3780) (classification)
+
+ans =
+
+   75.7407
+
+
+accr =
+
+   75.7407
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 9
+
+Accuracy = 76.2698% (2883/3780) (classification)
+
+ans =
+
+   76.2698
+
+
+accr =
+
+   76.2698
+
+
+params =
+
+-q -s 0 -t 2 -c 1024 -g 10
+
+Accuracy = 76.7196% (2900/3780) (classification)
+
+ans =
+
+   76.7196
+
+
+accr =
+
+   76.7196
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 1
+
+Accuracy = 69.7619% (2637/3780) (classification)
+
+ans =
+
+   69.7619
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 2
+
+Accuracy = 71.4286% (2700/3780) (classification)
+
+ans =
+
+   71.4286
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 3
+
+Accuracy = 72.8042% (2752/3780) (classification)
+
+ans =
+
+   72.8042
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 4
+
+Accuracy = 73.5185% (2779/3780) (classification)
+
+ans =
+
+   73.5185
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 5
+
+Accuracy = 74.6825% (2823/3780) (classification)
+
+ans =
+
+   74.6825
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 6
+
+Accuracy = 75.5291% (2855/3780) (classification)
+
+ans =
+
+   75.5291
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 7
+
+Accuracy = 76.3228% (2885/3780) (classification)
+
+ans =
+
+   76.3228
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 8
+
+Accuracy = 76.9312% (2908/3780) (classification)
+
+ans =
+
+   76.9312
+
+
+accr =
+
+   76.9312
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 9
+
+Accuracy = 77.0635% (2913/3780) (classification)
+
+ans =
+
+   77.0635
+
+
+accr =
+
+   77.0635
+
+
+params =
+
+-q -s 0 -t 2 -c 2048 -g 10
+
+Accuracy = 77.4603% (2928/3780) (classification)
+
+ans =
+
+   77.4603
+
+
+accr =
+
+   77.4603
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 1
+
+Accuracy = 71.0317% (2685/3780) (classification)
+
+ans =
+
+   71.0317
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 2
+
+Accuracy = 72.7513% (2750/3780) (classification)
+
+ans =
+
+   72.7513
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 3
+
+Accuracy = 73.5714% (2781/3780) (classification)
+
+ans =
+
+   73.5714
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 4
+
+Accuracy = 74.7619% (2826/3780) (classification)
+
+ans =
+
+   74.7619
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 5
+
+Accuracy = 75.7407% (2863/3780) (classification)
+
+ans =
+
+   75.7407
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 6
+
+Accuracy = 76.6931% (2899/3780) (classification)
+
+ans =
+
+   76.6931
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 7
+
+Accuracy = 77.1693% (2917/3780) (classification)
+
+ans =
+
+   77.1693
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 8
+
+Accuracy = 77.6455% (2935/3780) (classification)
+
+ans =
+
+   77.6455
+
+
+accr =
+
+   77.6455
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 9
+
+Accuracy = 77.8836% (2944/3780) (classification)
+
+ans =
+
+   77.8836
+
+
+accr =
+
+   77.8836
+
+
+params =
+
+-q -s 0 -t 2 -c 4096 -g 10
+
+Accuracy = 78.2275% (2957/3780) (classification)
+
+ans =
+
+   78.2275
+
+
+accr =
+
+   78.2275
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 1
+
+Accuracy = 72.0106% (2722/3780) (classification)
+
+ans =
+
+   72.0106
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 2
+
+Accuracy = 73.3598% (2773/3780) (classification)
+
+ans =
+
+   73.3598
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 3
+
+Accuracy = 74.5238% (2817/3780) (classification)
+
+ans =
+
+   74.5238
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 4
+
+Accuracy = 75.9259% (2870/3780) (classification)
+
+ans =
+
+   75.9259
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 5
+
+Accuracy = 76.8254% (2904/3780) (classification)
+
+ans =
+
+   76.8254
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 6
+
+Accuracy = 77.7249% (2938/3780) (classification)
+
+ans =
+
+   77.7249
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 7
+
+Accuracy = 77.8307% (2942/3780) (classification)
+
+ans =
+
+   77.8307
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 8
+
+Accuracy = 78.3069% (2960/3780) (classification)
+
+ans =
+
+   78.3069
+
+
+accr =
+
+   78.3069
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 9
+
+Accuracy = 78.836% (2980/3780) (classification)
+
+ans =
+
+   78.8360
+
+
+accr =
+
+   78.8360
+
+
+params =
+
+-q -s 0 -t 2 -c 8192 -g 10
+
+Accuracy = 79.4709% (3004/3780) (classification)
+
+ans =
+
+   79.4709
+
+
+accr =
+
+   79.4709
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 1
+
+Accuracy = 73.0423% (2761/3780) (classification)
+
+ans =
+
+   73.0423
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 2
+
+Accuracy = 74.3651% (2811/3780) (classification)
+
+ans =
+
+   74.3651
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 3
+
+Accuracy = 75.7937% (2865/3780) (classification)
+
+ans =
+
+   75.7937
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 4
+
+Accuracy = 77.037% (2912/3780) (classification)
+
+ans =
+
+   77.0370
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 5
+
+Accuracy = 77.8836% (2944/3780) (classification)
+
+ans =
+
+   77.8836
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 6
+
+Accuracy = 78.5185% (2968/3780) (classification)
+
+ans =
+
+   78.5185
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 7
+
+Accuracy = 78.9153% (2983/3780) (classification)
+
+ans =
+
+   78.9153
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 8
+
+Accuracy = 79.418% (3002/3780) (classification)
+
+ans =
+
+   79.4180
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 9
+
+Accuracy = 80.0265% (3025/3780) (classification)
+
+ans =
+
+   80.0265
+
+
+accr =
+
+   80.0265
+
+
+params =
+
+-q -s 0 -t 2 -c 16384 -g 10
+
+Accuracy = 80.5291% (3044/3780) (classification)
+
+ans =
+
+   80.5291
+
+
+accr =
+
+   80.5291
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 1
+
+Accuracy = 73.7037% (2786/3780) (classification)
+
+ans =
+
+   73.7037
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 2
+
+Accuracy = 75.0794% (2838/3780) (classification)
+
+ans =
+
+   75.0794
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 3
+
+Accuracy = 76.8519% (2905/3780) (classification)
+
+ans =
+
+   76.8519
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 4
+
+Accuracy = 78.0423% (2950/3780) (classification)
+
+ans =
+
+   78.0423
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 5
+
+Accuracy = 78.8624% (2981/3780) (classification)
+
+ans =
+
+   78.8624
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 6
+
+Accuracy = 79.3386% (2999/3780) (classification)
+
+ans =
+
+   79.3386
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 7
+
+Accuracy = 79.7619% (3015/3780) (classification)
+
+ans =
+
+   79.7619
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 8
+
+Accuracy = 80.1852% (3031/3780) (classification)
+
+ans =
+
+   80.1852
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 9
+
+Accuracy = 80.7937% (3054/3780) (classification)
+
+ans =
+
+   80.7937
+
+
+accr =
+
+   80.7937
+
+
+params =
+
+-q -s 0 -t 2 -c 32768 -g 10
+
+Accuracy = 80.9524% (3060/3780) (classification)
+
+ans =
+
+   80.9524
+
+
+accr =
+
+   80.9524
+
+>> 

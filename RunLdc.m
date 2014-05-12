@@ -21,16 +21,16 @@ function [ error ] = RunLdc( initData,classLabels,initTestIntData,initTestIntLab
     error=[];
     minErr=100;
     bestDim=0;
-    for dim=1:6
+    for dim=1:MAX_DIM
         data = initData;
         testData = initTestIntData;
         A = prdataset(data,classLabels);
         A = A*normm;
-        A = A*fisherm(A,dim);
+        A = A*klm(A,dim);
         
         B = prdataset(testData,initTestIntLabel);
         B = B*normm;
-        B = B*fisherm(B,dim);
+        B = B*klm(B,dim);
 
         w = ldc(A);
         classification = B*w;
