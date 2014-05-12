@@ -1,6 +1,7 @@
 function [ accuracy ] = RunGaussianSVM( initData,classLabels,initTestIntData,initTestIntLabel )
     error=[];
-    for dim=1:54
+    completion=0;
+    for dim=1:20
         data = initData;
         testData = initTestIntData;
         data = data*klm(data,dim);
@@ -18,8 +19,11 @@ function [ accuracy ] = RunGaussianSVM( initData,classLabels,initTestIntData,ini
             model = svmtrain(classLabels,A.data,params);
             [predictedLabel,accuracy,decisionVals] = svmpredict(initTestIntLabel,B.data,model);
             error_k=[error_k;accuracy];
+            completion = completion+1;
+            completion*100/(10*20)
         end
         error = [error error_k];
+        dlmwrite('gaussianSVMErr.txt',error)
     end
 end
 
