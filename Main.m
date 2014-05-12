@@ -14,7 +14,7 @@ initTestIntData = initTestIntData';
 % [errorRate,crossvalErrorRate,crossvalStd]=Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,0)
 % [normErrorRate,normBaselineErrorRate,normBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,0)
 % [reduceDimErrorRate,reduceDimBaselineErrorRate,reduceDimBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,1)
-[reduceDimNormErrorRate,reduceDimNormBaselineErrorRate,reduceDimNormBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,1)
+% [reduceDimNormErrorRate,reduceDimNormBaselineErrorRate,reduceDimNormBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,1)
 % baselineErrorRate
 % normBaselineErrorRate
 % reduceDimErrorRate
@@ -22,13 +22,13 @@ initTestIntData = initTestIntData';
 % dlmwrite('errorRate.txt',errorRate);
 % dlmwrite('normErrorRate.txt',normErrorRate);
 % dlmwrite('reduceDimErrorRate.txt',reduceDimErrorRate);
-dlmwrite('reduceDimNormErrorRate.txt',reduceDimNormErrorRate)
-DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
+% dlmwrite('reduceDimNormErrorRate.txt',reduceDimNormErrorRate)
+% DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
 % DrawPlot(reduceDimErrorRate,'reduceDimErrorRate');
 
 %run svm
-% fprintf('Now running svm')
-% linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
+fprintf('Now running svm')
+linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 % gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 %run knn
 % -----------------------------------------------------------------------------------------------
@@ -44,7 +44,13 @@ DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
 % dlmwrite('ldcErrorRate.txt',ldcErrorRate);
 % DrawPlot(ldcErrorRate,'ldcErrorPlot');
 % -----------------------------------------------------------------------------------------------
-%run parzen
-%[pzErrorRate] = Runc(MAX_DIM,parzenc,1,1,0)
-%DrawPlot(pzErrorRate);
+%run perlc
+% [perlErrorRate] = RunPerlc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% dlmwrite('perlErrorRate.txt',perlErrorRate);
+% DrawPlot(perlErrorRate,'perlErrorRate');
+% -----------------------------------------------------------------------------------------------
+%run artificial neural network
+% [annErrorRate] = RunAnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% dlmwrite('AnnErrorRate.txt',annErrorRate);
+% DrawPlot(annErrorRate,'annErrorRate');
 diary off,;

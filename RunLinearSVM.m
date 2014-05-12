@@ -1,16 +1,15 @@
 function [ accuracy ] = RunLinearSVM( initData,classLabels,initTestIntData,initTestIntLabel )
     error=[];
-    for dim=1:54
+    for dim=10:20
         data = initData;
         testData = initTestIntData;
-        data = data*klm(data,dim);
-        testData = testData*klm(testData,dim);
         A = prdataset(data,classLabels);
         B = prdataset(testData,initTestIntLabel);
-        if dim>1
-            A = A*normm;
-            B = B*normm;
-        end
+        A = A*normm;
+        A = A*klm(A,dim);
+        
+        B = B*normm;
+        B = B*klm(B,dim);
         error_k=[];
         for c=1:5
             params = '-s 0 -t 0 -c ';
