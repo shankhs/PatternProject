@@ -27,8 +27,8 @@ initTestIntData = initTestIntData';
 % DrawPlot(reduceDimErrorRate,'reduceDimErrorRate');
 
 %run svm
-% fprintf('Now running svm')
-% linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
+fprintf('Now running svm')
+linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 % gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 %run knn
 % -----------------------------------------------------------------------------------------------
@@ -44,7 +44,13 @@ DrawPlot(knnErrorRate,'knnErrorPlot');
 % dlmwrite('ldcErrorRate.txt',ldcErrorRate);
 % DrawPlot(ldcErrorRate,'ldcErrorPlot');
 % -----------------------------------------------------------------------------------------------
-%run parzen
-%[pzErrorRate] = Runc(MAX_DIM,parzenc,1,1,0)
-%DrawPlot(pzErrorRate);
+%run perlc
+% [perlErrorRate] = RunPerlc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% dlmwrite('perlErrorRate.txt',perlErrorRate);
+% DrawPlot(perlErrorRate,'perlErrorRate');
+% -----------------------------------------------------------------------------------------------
+%run artificial neural network
+% [annErrorRate] = RunAnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% dlmwrite('AnnErrorRate.txt',annErrorRate);
+% DrawPlot(annErrorRate,'annErrorRate');
 diary off,;

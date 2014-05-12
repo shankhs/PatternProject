@@ -1,38 +1,19 @@
-% KLM
-% minErr =
-% 
-%     0.4603
-% 
-% 
-% bestDim =
-% 
-%     42
-% FISHERM
-% minErr =
-% 
-%     0.4548
-% 
-% 
-% bestDim =
-% 
-%      1
-
-function [ error ] = RunLdc( initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM )
+% 51-st dim is optimal with klm
+% 1st dim is optimal with fisherm
+function [ error ] = RunPerlc( initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM )
     error=[];
     minErr=100;
     bestDim=0;
-    for dim=1:6
+    for dim=51:51
         data = initData;
         testData = initTestIntData;
         A = prdataset(data,classLabels);
         A = A*normm;
-        A = A*fisherm(A,dim);
-        
+        A = A*klm(A,dim);
         B = prdataset(testData,initTestIntLabel);
         B = B*normm;
-        B = B*fisherm(B,dim);
-
-        w = ldc(A);
+        B = B*klm(B,dim);
+        w = perlc(A,1000);
         classification = B*w;
         [result,erredClass] = testc(classification);
         if result<minErr
@@ -42,4 +23,3 @@ function [ error ] = RunLdc( initData,classLabels,initTestIntData,initTestIntLab
         error=[error;result];
     end
 end
-
