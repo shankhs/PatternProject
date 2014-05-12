@@ -14,7 +14,7 @@ initTestIntData = initTestIntData';
 % [errorRate,crossvalErrorRate,crossvalStd]=Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,0)
 % [normErrorRate,normBaselineErrorRate,normBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,0)
 % [reduceDimErrorRate,reduceDimBaselineErrorRate,reduceDimBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,0,1)
-[reduceDimNormErrorRate,reduceDimNormBaselineErrorRate,reduceDimNormBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,1)
+% [reduceDimNormErrorRate,reduceDimNormBaselineErrorRate,reduceDimNormBaselineStd] = Run(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM,PARTITION,REPEAT,1,1)
 % baselineErrorRate
 % normBaselineErrorRate
 % reduceDimErrorRate
@@ -22,8 +22,8 @@ initTestIntData = initTestIntData';
 % dlmwrite('errorRate.txt',errorRate);
 % dlmwrite('normErrorRate.txt',normErrorRate);
 % dlmwrite('reduceDimErrorRate.txt',reduceDimErrorRate);
-dlmwrite('reduceDimNormErrorRate.txt',reduceDimNormErrorRate)
-DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
+% dlmwrite('reduceDimNormErrorRate.txt',reduceDimNormErrorRate)
+% DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
 % DrawPlot(reduceDimErrorRate,'reduceDimErrorRate');
 
 %run svm
@@ -32,15 +32,15 @@ DrawPlot(reduceDimNormErrorRate,'reduceDimNormErrorRate');
 % gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
 %run knn
 % -----------------------------------------------------------------------------------------------
-% fprintf('Now running knn')
-% knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
-% dlmwrite('knnErrorRate.txt',knnErrorRate);
-% DrawPlot(knnErrorRate,'knnErrorPlot');
+fprintf('Now running knn\t')
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+dlmwrite('knnErrorRate.txt',knnErrorRate);
+DrawPlot(knnErrorRate,'knnErrorPlot');
 % -----------------------------------------------------------------------------------------------
 %run ldc
 % -----------------------------------------------------------------------------------------------
 % fprintf('Now running ldc')
-% ldcErrorRate = RunLdc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% ldcErrorRate = RunLdc(initData,classLabels,initTestIntData,initTestIntLabel,30);
 % dlmwrite('ldcErrorRate.txt',ldcErrorRate);
 % DrawPlot(ldcErrorRate,'ldcErrorPlot');
 % -----------------------------------------------------------------------------------------------
