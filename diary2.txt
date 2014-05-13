@@ -1,0 +1,4745 @@
+Now running svm
+Now running knn	{Undefined function 'prdataset' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 14)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',14,0)">line 14</a>)
+            A = prdataset(data,classLabels);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running svm
+Now running knn	
+   Welcome to PRTools5. It is not fully compatible with PRTools4.
+   Go to http://37steps.com/prtools5-intro/ for transition notes or click <a href="http://37steps.com/prtools5-intro/">here</a>.
+--> There is a newer version of PRTools available
+
+   Type 'prnews' to open your browser for PRTools news
+
+
+PR_Warning: getprior: fisherm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: fisherm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: prcrossval: No priors found in dataset, class frequencies are used instead
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distm', 'C:\Users\chakrova\PatternProject\prtools\distm.m', 79)" style="font-weight:bold">distm</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\distm.m',79,0)">line 79</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 82)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',82,0)">line 82</a>)
+			DD = distm(+a,+T(range,:));
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 28)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',28,0)">line 28</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5)
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running knn	
+result =
+
+    0.5497
+
+
+crossvalStd =
+
+    0.0013
+
+
+minErr =
+
+    0.5497
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.5569
+
+
+crossvalStd =
+
+    0.0035
+
+
+result =
+
+    0.5210
+
+
+crossvalStd =
+
+    0.0033
+
+
+minErr =
+
+    0.5210
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.5110
+
+
+crossvalStd =
+
+    0.0026
+
+
+minErr =
+
+    0.5110
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4942
+
+
+crossvalStd =
+
+    0.0021
+
+
+minErr =
+
+    0.4942
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4930
+
+
+crossvalStd =
+
+    0.0021
+
+
+minErr =
+
+    0.4930
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4846
+
+
+crossvalStd =
+
+    0.0023
+
+
+minErr =
+
+    0.4846
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4808
+
+
+crossvalStd =
+
+    0.0021
+
+
+minErr =
+
+    0.4808
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4799
+
+
+crossvalStd =
+
+    0.0024
+
+
+minErr =
+
+    0.4799
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4763
+
+
+crossvalStd =
+
+    0.0020
+
+
+minErr =
+
+    0.4763
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4732
+
+
+crossvalStd =
+
+    0.0045
+
+
+minErr =
+
+    0.4732
+
+
+bestDim =
+
+     1
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('distm', 'C:\Users\chakrova\PatternProject\prtools\distm.m', 80)" style="font-weight:bold">distm</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\distm.m',80,0)">line 80</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 82)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',82,0)">line 82</a>)
+			DD = distm(+a,+T(range,:));
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 28)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',28,0)">line 28</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5)
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running knn	
+result =
+
+    0.5517
+
+
+crossvalStd =
+
+    0.0020
+
+
+minErr =
+
+    0.5517
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.5595
+
+
+crossvalStd =
+
+    0.0022
+
+
+result =
+
+    0.5219
+
+
+crossvalStd =
+
+    0.0021
+
+
+minErr =
+
+    0.5219
+
+
+bestK =
+
+     3
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.5118
+
+
+crossvalStd =
+
+    0.0031
+
+
+minErr =
+
+    0.5118
+
+
+bestK =
+
+     4
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4942
+
+
+crossvalStd =
+
+    0.0024
+
+
+minErr =
+
+    0.4942
+
+
+bestK =
+
+     5
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4936
+
+
+crossvalStd =
+
+    0.0048
+
+
+minErr =
+
+    0.4936
+
+
+bestK =
+
+     6
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.4849
+
+
+crossvalStd =
+
+    0.0021
+
+
+minErr =
+
+    0.4849
+
+
+bestK =
+
+     7
+
+
+bestDim =
+
+     1
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 89)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',89,0)">line 89</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 28)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',28,0)">line 28</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5)
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running knn	
+result =
+
+    0.5512
+
+
+crossvalStd =
+
+    0.0015
+
+
+minErr =
+
+    0.5512
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  220     91      0      0     49      7    173  |  540
+  2      |  157    132     10      3    149     30     59  |  540
+  3      |    2     21    162    170     42    142      1  |  540
+  4      |    1      4    172    277      0     86      0  |  540
+  5      |   52    114     36      0    271     59      8  |  540
+  6      |    5     28    157    105     87    157      1  |  540
+  7      |   74     27      0      0      0      1    438  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  511    417    537    555    598    482    680  | 3780
+
+Now running knn	{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 86)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',86,0)">line 86</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 30)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',30,0)">line 30</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5);
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running knn	{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 126)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',126,0)">line 126</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 30)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',30,0)">line 30</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5);
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
+} 
+Main
+Now running knn	
+minErr =
+
+    0.7941
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0062
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   73     55     96     95     75     84     62  |  540
+  2      |   63     65     84    110     76     80     62  |  540
+  3      |  100     83     59     49     76     65    108  |  540
+  4      |  102     78     60     83     70     70     77  |  540
+  5      |  106     91     54     64     61     62    102  |  540
+  6      |  103     82     59     60     66     76     94  |  540
+  7      |   50     50     90     98     83    100     69  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  597    504    502    559    507    537    574  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  120     85    137     97     52     30     19  |  540
+  2      |  114     92    132    104     54     33     11  |  540
+  3      |  158    121     84     65     51     33     28  |  540
+  4      |  175    114     72     92     48     23     16  |  540
+  5      |  181    131     73     63     43     23     26  |  540
+  6      |  159    107     77     65     76     26     30  |  540
+  7      |  102     99    119     95     74     41     10  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1009    749    694    581    398    209    140  | 3780
+
+
+minErr =
+
+    0.6761
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0014
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   78     63     85     56    124     68     66  |  540
+  2      |   96     63     90     62    106     61     62  |  540
+  3      |  112    116     55     48     66     44     99  |  540
+  4      |  148     92     51     50     61     62     76  |  540
+  5      |  122    105     55     37     54     75     92  |  540
+  6      |  108     96     54     62     66     63     91  |  540
+  7      |   55     86    107     79     70     97     46  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  719    621    497    394    547    470    532  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  121     91    110     56    104     29     29  |  540
+  2      |  151     90     99     64     82     31     23  |  540
+  3      |  183    128     65     48     46     19     51  |  540
+  4      |  203    108     69     48     50     29     33  |  540
+  5      |  201     98     77     39     45     33     47  |  540
+  6      |  176    119     59     72     53     20     41  |  540
+  7      |  118    105    140     85     45     39      8  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1153    739    619    412    425    200    232  | 3780
+
+Now running knn	
+minErr =
+
+    0.7935
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0039
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   73     55     96     95     75     84     62  |  540
+  2      |   63     65     84    110     76     80     62  |  540
+  3      |  100     83     59     49     76     65    108  |  540
+  4      |  102     78     60     83     70     70     77  |  540
+  5      |  106     91     54     64     61     62    102  |  540
+  6      |  103     82     59     60     66     76     94  |  540
+  7      |   50     50     90     98     83    100     69  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  597    504    502    559    507    537    574  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  120     85    137     97     52     30     19  |  540
+  2      |  114     92    132    104     54     33     11  |  540
+  3      |  158    121     84     65     51     33     28  |  540
+  4      |  175    114     72     92     48     23     16  |  540
+  5      |  181    131     73     63     43     23     26  |  540
+  6      |  159    107     77     65     76     26     30  |  540
+  7      |  102     99    119     95     74     41     10  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1009    749    694    581    398    209    140  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  134     79    114     73     54     48     38  |  540
+  2      |  123     90    118     83     51     42     33  |  540
+  3      |  157    107     78     67     37     24     70  |  540
+  4      |  189    112     59     72     33     31     44  |  540
+  5      |  166    136     68     56     28     30     56  |  540
+  6      |  179    104     65     59     42     26     65  |  540
+  7      |  127     95    111     80     54     48     25  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1075    723    613    490    299    249    331  | 3780
+
+
+minErr =
+
+    0.7892
+
+
+bestK =
+
+     4
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0023
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  103     65    107     77     76     66     46  |  540
+  2      |  100     74    110     87     65     57     47  |  540
+  3      |  137     99     54     71     53     39     87  |  540
+  4      |  168     96     50     78     46     47     55  |  540
+  5      |  150    113     50     65     34     51     77  |  540
+  6      |  153     83     57     64     54     49     80  |  540
+  7      |  121     64    100     84     70     65     36  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  932    594    528    526    398    374    428  | 3780
+
+
+minErr =
+
+    0.7818
+
+
+bestK =
+
+     5
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0033
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   90     54    116     82     90     62     46  |  540
+  2      |   91     59    112    108     76     52     42  |  540
+  3      |  133     90     53     76     57     48     83  |  540
+  4      |  142     81     48    102     56     54     57  |  540
+  5      |  142     93     56     71     47     64     67  |  540
+  6      |  148     64     58     75     57     56     82  |  540
+  7      |   92     51    111     97     85     72     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  838    492    554    611    468    408    409  | 3780
+
+
+minErr =
+
+    0.7753
+
+
+bestK =
+
+     6
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0025
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   84     46    131     81     89     64     45  |  540
+  2      |   81     55    128    102     86     46     42  |  540
+  3      |  126     83     52     88     59     41     91  |  540
+  4      |  134     75     50    108     52     62     59  |  540
+  5      |  142     79     67     76     49     54     73  |  540
+  6      |  132     62     65     86     65     47     83  |  540
+  7      |   73     50    128    107     81     64     37  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  772    450    621    648    481    378    430  | 3780
+
+
+minErr =
+
+    0.7719
+
+
+bestK =
+
+     7
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0028
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   72     54    126     75    101     67     45  |  540
+  2      |   85     48    130    106     77     50     44  |  540
+  3      |  125     85     54     84     52     44     96  |  540
+  4      |  113     80     53    116     56     53     69  |  540
+  5      |  132     84     69     79     44     54     78  |  540
+  6      |  125     81     67     88     45     45     89  |  540
+  7      |   70     54    127    107     81     69     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  722    486    626    655    456    382    453  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   81     49    124     79     94     70     43  |  540
+  2      |   78     55    136     99     78     46     48  |  540
+  3      |  131     80     60     89     49     44     87  |  540
+  4      |  116     79     57    117     60     51     60  |  540
+  5      |  134     91     66     77     46     53     73  |  540
+  6      |  122     82     67     85     49     50     85  |  540
+  7      |   79     59    124    109     86     54     29  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  741    495    634    655    462    368    425  | 3780
+
+
+minErr =
+
+    0.7707
+
+
+bestK =
+
+     9
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0015
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   74     50    123     79     94     74     46  |  540
+  2      |   70     45    139     94     78     59     55  |  540
+  3      |  111     88     57     86     51     51     96  |  540
+  4      |  117     74     51    116     60     54     68  |  540
+  5      |  119     90     57     88     46     60     80  |  540
+  6      |  111     79     58     93     49     56     94  |  540
+  7      |   69     58    120    107     87     70     29  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  671    484    605    663    465    424    468  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   60     50    115     81     92     88     54  |  540
+  2      |   58     49    142     94     79     60     58  |  540
+  3      |  104     79     50     97     57     48    105  |  540
+  4      |  125     68     50    111     67     56     63  |  540
+  5      |  103     79     60     90     46     72     90  |  540
+  6      |  104     73     60     95     55     60     93  |  540
+  7      |   59     47    123    111     95     73     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  613    445    600    679    491    457    495  | 3780
+
+
+minErr =
+
+    0.7654
+
+
+bestK =
+
+    11
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0025
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   60     52    117     87     84     87     53  |  540
+  2      |   57     40    143    105     76     64     55  |  540
+  3      |  104     87     47     98     49     48    107  |  540
+  4      |  108     64     53    118     64     58     75  |  540
+  5      |  101     80     62     90     46     72     89  |  540
+  6      |   93     75     59     92     65     55    101  |  540
+  7      |   49     47    115    117    103     74     35  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  572    445    596    707    487    458    515  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   52     47    132     87     91     84     47  |  540
+  2      |   56     40    136    103     79     74     52  |  540
+  3      |  103     82     45     98     54     51    107  |  540
+  4      |  102     70     49    124     62     53     80  |  540
+  5      |  105     69     73     93     41     72     87  |  540
+  6      |   89     66     63    103     60     54    105  |  540
+  7      |   50     46    117    119     99     77     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  557    420    615    727    486    465    510  | 3780
+
+
+minErr =
+
+    0.7648
+
+
+bestK =
+
+    13
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0027
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   43     49    129     89     96     83     51  |  540
+  2      |   56     41    138    102     83     70     50  |  540
+  3      |  109     81     46     95     56     54     99  |  540
+  4      |   97     66     51    131     59     56     80  |  540
+  5      |  106     70     70     95     42     74     83  |  540
+  6      |   94     67     61     99     61     58    100  |  540
+  7      |   49     42    115    120    100     77     37  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  554    416    610    731    497    472    500  | 3780
+
+
+minErr =
+
+    0.7647
+
+
+bestK =
+
+    14
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0025
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   44     53    133     81     96     87     46  |  540
+  2      |   55     40    135    100     88     73     49  |  540
+  3      |  108     78     39    102     57     54    102  |  540
+  4      |   98     70     44    131     67     44     86  |  540
+  5      |  104     68     68     99     39     78     84  |  540
+  6      |   94     72     61    103     56     55     99  |  540
+  7      |   46     43    114    122    104     75     36  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  549    424    594    738    507    466    502  | 3780
+
+
+minErr =
+
+    0.7630
+
+
+bestK =
+
+    15
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0026
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   45     52    130     86     98     82     47  |  540
+  2      |   47     44    128    107     89     73     52  |  540
+  3      |  110     71     39    103     55     55    107  |  540
+  4      |   96     66     42    132     66     48     90  |  540
+  5      |  102     69     61    106     39     78     85  |  540
+  6      |   95     72     50    108     54     55    106  |  540
+  7      |   43     41    126    120    107     68     35  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  538    415    576    762    508    459    522  | 3780
+
+
+minErr =
+
+    0.6728
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0045
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   78     63     85     56    124     68     66  |  540
+  2      |   96     63     90     62    106     61     62  |  540
+  3      |  112    116     55     48     66     44     99  |  540
+  4      |  148     92     51     50     61     62     76  |  540
+  5      |  122    105     55     37     54     75     92  |  540
+  6      |  108     96     54     62     66     63     91  |  540
+  7      |   55     86    107     79     70     97     46  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  719    621    497    394    547    470    532  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  121     91    110     56    104     29     29  |  540
+  2      |  151     90     99     64     82     31     23  |  540
+  3      |  183    128     65     48     46     19     51  |  540
+  4      |  203    108     69     48     50     29     33  |  540
+  5      |  201     98     77     39     45     33     47  |  540
+  6      |  176    119     59     72     53     20     41  |  540
+  7      |  118    105    140     85     45     39      8  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1153    739    619    412    425    200    232  | 3780
+
+
+minErr =
+
+    0.6652
+
+
+bestK =
+
+     3
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0023
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  107     73    105     50    112     49     44  |  540
+  2      |  138     85     74     62     87     42     52  |  540
+  3      |  169    109     60     43     43     28     88  |  540
+  4      |  192    107     47     39     63     29     63  |  540
+  5      |  163    113     52     37     49     49     77  |  540
+  6      |  154    102     48     69     53     37     77  |  540
+  7      |  105    100    131     70     50     60     24  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1028    689    517    370    457    294    425  | 3780
+
+
+minErr =
+
+    0.6494
+
+
+bestK =
+
+     4
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0015
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   99     56     86     56    124     71     48  |  540
+  2      |  110     66     79     65     96     66     58  |  540
+  3      |  147    102     45     52     56     42     96  |  540
+  4      |  167     85     42     51     77     46     72  |  540
+  5      |  154     98     59     36     50     61     82  |  540
+  6      |  126    100     54     69     57     53     81  |  540
+  7      |   85     77    131     76     61     88     22  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  888    584    496    405    521    427    459  | 3780
+
+
+minErr =
+
+    0.6329
+
+
+bestK =
+
+     5
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0024
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   72     52    106     65    126     72     47  |  540
+  2      |   79     62     91     71    109     62     66  |  540
+  3      |  104    122     49     63     57     41    104  |  540
+  4      |  145     87     46     64     79     49     70  |  540
+  5      |  130    101     68     41     50     71     79  |  540
+  6      |  123    102     50     78     61     51     75  |  540
+  7      |   69     59    131     96     68     93     24  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  722    585    541    478    550    439    465  | 3780
+
+
+minErr =
+
+    0.6231
+
+
+bestK =
+
+     6
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+   7.5241e-04
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   75     40    104     66    136     72     47  |  540
+  2      |   80     56     98     79    108     57     62  |  540
+  3      |  101    108     49     67     61     37    117  |  540
+  4      |  150     75     52     67     75     51     70  |  540
+  5      |  142     72     69     51     49     66     91  |  540
+  6      |  117     91     46     91     61     56     78  |  540
+  7      |   71     56    131    103     65     90     24  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  736    498    549    524    555    429    489  | 3780
+
+
+minErr =
+
+    0.6162
+
+
+bestK =
+
+     7
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0011
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   68     41    112     67    134     74     44  |  540
+  2      |   78     45     98     81    114     65     59  |  540
+  3      |  100    107     50     69     57     46    111  |  540
+  4      |  145     80     55     67     68     47     78  |  540
+  5      |  123     83     68     50     54     67     95  |  540
+  6      |  100     85     47     97     65     58     88  |  540
+  7      |   65     63    142    105     55     89     21  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  679    504    572    536    547    446    496  | 3780
+
+
+minErr =
+
+    0.6144
+
+
+bestK =
+
+     8
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0012
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   63     39    102     74    139     75     48  |  540
+  2      |   76     39     94     82    120     62     67  |  540
+  3      |   88    105     49     68     66     51    113  |  540
+  4      |  154     69     48     63     74     54     78  |  540
+  5      |  126     78     66     50     56     68     96  |  540
+  6      |   95     95     47     97     69     55     82  |  540
+  7      |   68     63    129    106     53    100     21  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  670    488    535    540    577    465    505  | 3780
+
+
+minErr =
+
+    0.6102
+
+
+bestK =
+
+     9
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0038
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   53     41    102     74    143     71     56  |  540
+  2      |   66     45     84     86    124     73     62  |  540
+  3      |   84    103     53     65     59     54    122  |  540
+  4      |  141     74     50     71     70     57     77  |  540
+  5      |  118     80     68     49     52     72    101  |  540
+  6      |  102     90     48     93     70     57     80  |  540
+  7      |   62     56    130    107     60    101     24  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  626    489    535    545    578    485    522  | 3780
+
+
+minErr =
+
+    0.6047
+
+
+bestK =
+
+    10
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0037
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   54     35    101     76    145     77     52  |  540
+  2      |   68     39     81     91    125     72     64  |  540
+  3      |   82    104     55     66     60     56    117  |  540
+  4      |  140     73     54     72     69     53     79  |  540
+  5      |  119     72     73     51     55     74     96  |  540
+  6      |  104     83     44    101     72     58     78  |  540
+  7      |   51     59    140    111     61     94     24  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  618    465    548    568    587    484    510  | 3780
+
+
+minErr =
+
+    0.6025
+
+
+bestK =
+
+    11
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0020
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     27    104     83    140     78     57  |  540
+  2      |   62     39     86     94    127     72     60  |  540
+  3      |   84    106     48     71     58     60    113  |  540
+  4      |  130     68     53     76     70     57     86  |  540
+  5      |  113     86     73     51     48     78     91  |  540
+  6      |   94     95     43    103     70     52     83  |  540
+  7      |   51     49    145    111     64     93     27  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  585    470    552    589    577    490    517  | 3780
+
+
+minErr =
+
+    0.5998
+
+
+bestK =
+
+    12
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0015
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   48     26    106     83    143     73     61  |  540
+  2      |   64     36     83     97    127     72     61  |  540
+  3      |   85     99     51     70     57     57    121  |  540
+  4      |  134     69     54     74     70     56     83  |  540
+  5      |  114     74     74     50     57     78     93  |  540
+  6      |  105     91     37    104     72     58     73  |  540
+  7      |   51     52    144    112     60     94     27  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  601    447    549    590    586    488    519  | 3780
+
+
+minErr =
+
+    0.5966
+
+
+bestK =
+
+    13
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0020
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   43     32     99     86    141     75     64  |  540
+  2      |   56     36     84     99    127     73     65  |  540
+  3      |   75     97     55     76     58     49    130  |  540
+  4      |  129     68     49     76     70     60     88  |  540
+  5      |  108     79     73     55     59     73     93  |  540
+  6      |  107     83     35    110     76     58     71  |  540
+  7      |   50     51    148    114     57     92     28  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  568    446    543    616    588    480    539  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   49     28     97     85    143     74     64  |  540
+  2      |   62     30     83     96    133     74     62  |  540
+  3      |   77    101     56     70     61     51    124  |  540
+  4      |  134     64     52     72     68     63     87  |  540
+  5      |  115     75     79     53     56     72     90  |  540
+  6      |  106     72     36    110     79     58     79  |  540
+  7      |   51     47    151    109     54     98     30  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  594    417    554    595    594    490    536  | 3780
+
+
+minErr =
+
+    0.5955
+
+
+bestK =
+
+    15
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0027
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   45     32    102     85    141     73     62  |  540
+  2      |   63     29     83     98    132     74     61  |  540
+  3      |   75     98     51     73     66     51    126  |  540
+  4      |  122     69     54     76     66     62     91  |  540
+  5      |  106     76     76     53     56     77     96  |  540
+  6      |  103     73     34    109     84     59     78  |  540
+  7      |   55     44    151    107     57     96     30  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  569    421    551    601    602    492    544  | 3780
+
+
+minErr =
+
+    0.5153
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     3
+
+
+bestStd =
+
+    0.0025
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   95     70     88     51     95     83     58  |  540
+  2      |   94     89     82     51     85     78     61  |  540
+  3      |  122    147     55     39     52     45     80  |  540
+  4      |  133     91     61     48     67     63     77  |  540
+  5      |  140    107     66     44     47     51     85  |  540
+  6      |  111    124     65     43     45     76     76  |  540
+  7      |   84     88    127     60     63     80     38  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  779    716    544    336    454    476    475  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  143     91     99     53     89     39     26  |  540
+  2      |  158     98     94     54     73     39     24  |  540
+  3      |  162    145     71     40     47     22     53  |  540
+  4      |  199     92     67     39     56     41     46  |  540
+  5      |  223    103     77     40     35     39     23  |  540
+  6      |  175    124     77     49     34     34     47  |  540
+  7      |  135     97    149     66     44     29     20  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1195    750    634    341    378    243    239  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  116     79     85     51    107     52     50  |  540
+  2      |  125     74     93     69     81     49     49  |  540
+  3      |  131    135     64     40     48     33     89  |  540
+  4      |  156     85     58     55     60     50     76  |  540
+  5      |  167     95     61     53     45     47     72  |  540
+  6      |  141    126     62     45     41     47     78  |  540
+  7      |  125     89    122     79     48     49     28  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  961    683    545    392    430    327    442  | 3780
+
+
+minErr =
+
+    0.5147
+
+
+bestK =
+
+     4
+
+
+bestDim =
+
+     3
+
+
+bestStd =
+
+   6.3468e-04
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  100     59     84     57    116     68     56  |  540
+  2      |  118     66     89     75     89     55     48  |  540
+  3      |  137    128     49     44     57     39     86  |  540
+  4      |  157     65     57     62     66     57     76  |  540
+  5      |  166     78     65     54     47     48     82  |  540
+  6      |  134    106     56     56     49     58     81  |  540
+  7      |  103     68    144     83     55     61     26  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  915    570    544    431    479    386    455  | 3780
+
+
+minErr =
+
+    0.5082
+
+
+bestK =
+
+     5
+
+
+bestDim =
+
+     3
+
+
+bestStd =
+
+    0.0010
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   77     62     82     63    130     72     54  |  540
+  2      |   94     62     86     82    103     62     51  |  540
+  3      |  116    126     51     55     57     40     95  |  540
+  4      |  130     67     58     70     78     60     77  |  540
+  5      |  146     82     63     58     51     59     81  |  540
+  6      |  111    116     54     63     51     61     84  |  540
+  7      |   74     65    143     98     69     63     28  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  748    580    537    489    539    417    470  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   81     48     92     66    124     65     64  |  540
+  2      |  102     61     93     80    100     58     46  |  540
+  3      |  116    114     51     62     57     38    102  |  540
+  4      |  141     62     56     71     77     59     74  |  540
+  5      |  159     71     67     58     53     50     82  |  540
+  6      |  111    109     58     62     56     56     88  |  540
+  7      |   68     63    141    108     64     64     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  778    528    558    507    531    390    488  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   68     49     89     72    129     68     65  |  540
+  2      |   94     49     96     84    108     58     51  |  540
+  3      |  100    122     44     63     67     35    109  |  540
+  4      |  135     66     55     72     75     55     82  |  540
+  5      |  136     82     68     65     54     53     82  |  540
+  6      |  108    102     57     69     58     59     87  |  540
+  7      |   62     70    140    108     66     60     34  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  703    540    549    533    557    388    510  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   66     46     90     77    126     72     63  |  540
+  2      |   90     45     91     82    114     63     55  |  540
+  3      |  102    111     50     71     60     33    113  |  540
+  4      |  139     53     55     71     84     58     80  |  540
+  5      |  139     73     73     61     56     52     86  |  540
+  6      |   99    101     57     69     62     57     95  |  540
+  7      |   62     60    143    110     63     67     35  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  697    489    559    541    565    402    527  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   68     44     94     80    127     68     59  |  540
+  2      |   78     45     89     88    114     62     64  |  540
+  3      |   91    115     50     69     61     35    119  |  540
+  4      |  124     61     53     68     91     58     85  |  540
+  5      |  120     76     71     63     59     58     93  |  540
+  6      |  100     93     60     66     63     60     98  |  540
+  7      |   57     58    142    114     65     72     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  638    492    559    548    580    413    550  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   59     40     94     84    127     75     61  |  540
+  2      |   76     42     92     92    113     61     64  |  540
+  3      |   92    105     50     75     65     43    110  |  540
+  4      |  119     58     56     76     88     60     83  |  540
+  5      |  119     72     70     66     67     53     93  |  540
+  6      |   94     91     56     79     61     63     96  |  540
+  7      |   56     56    140    112     71     71     34  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  615    464    558    584    592    426    541  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   56     40     96     83    125     79     61  |  540
+  2      |   75     36    100     91    114     65     59  |  540
+  3      |   86    112     51     73     67     43    108  |  540
+  4      |  119     50     59     74     89     62     87  |  540
+  5      |  115     73     70     71     66     53     92  |  540
+  6      |   94     93     59     71     66     63     94  |  540
+  7      |   49     61    135    116     72     74     33  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  594    465    570    579    599    439    534  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   59     40     92     86    126     76     61  |  540
+  2      |   70     33     95     94    120     65     63  |  540
+  3      |   83    111     52     72     75     39    108  |  540
+  4      |  122     46     58     67     89     63     95  |  540
+  5      |  117     61     70     68     71     55     98  |  540
+  6      |   92     84     54     78     67     65    100  |  540
+  7      |   48     50    137    121     73     78     33  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  591    425    558    586    621    441    558  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   52     47     90     92    127     74     58  |  540
+  2      |   66     32     93     95    125     69     60  |  540
+  3      |   82    111     47     76     70     42    112  |  540
+  4      |  112     51     58     72     88     61     98  |  540
+  5      |  109     70     70     66     71     56     98  |  540
+  6      |   94     83     47     88     64     68     96  |  540
+  7      |   42     54    136    123     70     79     36  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  557    448    541    612    615    449    558  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   52     36     93     89    130     80     60  |  540
+  2      |   68     32     93     99    121     69     58  |  540
+  3      |   85    104     50     74     71     44    112  |  540
+  4      |  118     47     57     77     87     56     98  |  540
+  5      |  109     69     72     67     71     57     95  |  540
+  6      |   99     81     54     83     60     67     96  |  540
+  7      |   42     53    136    120     75     77     37  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  573    422    555    609    615    450    556  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   52     38     91     89    128     80     62  |  540
+  2      |   66     31     92     96    125     69     61  |  540
+  3      |   87    101     47     75     71     43    116  |  540
+  4      |  113     45     62     77     93     56     94  |  540
+  5      |  111     68     72     69     70     57     93  |  540
+  6      |  101     80     54     86     62     69     88  |  540
+  7      |   39     57    141    124     68     79     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  569    420    559    616    617    453    546  | 3780
+
+
+minErr =
+
+    0.3592
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     4
+
+
+bestStd =
+
+    0.0023
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   82     86     96     44    105     70     57  |  540
+  2      |   98    102     91     47     90     56     56  |  540
+  3      |  116    160     59     44     46     51     64  |  540
+  4      |  129    102     52     85     61     62     49  |  540
+  5      |  163    121     62     30     37     36     91  |  540
+  6      |  122    106     88     42     47     92     43  |  540
+  7      |   90    112    112     42     77     49     58  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  800    789    560    334    463    416    418  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  124    101     98     40    103     43     31  |  540
+  2      |  160    111     84     52     79     30     24  |  540
+  3      |  180    143     57     49     39     27     45  |  540
+  4      |  186    114     57     77     40     36     30  |  540
+  5      |  246    102     64     26     32     28     42  |  540
+  6      |  168    113     91     39     37     69     23  |  540
+  7      |  158    116    110     54     52     20     30  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1222    800    561    337    382    253    225  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  105     71     78     54    114     55     63  |  540
+  2      |  117     86     88     56    104     43     46  |  540
+  3      |  138    136     45     49     50     47     75  |  540
+  4      |  166     95     49     86     45     53     46  |  540
+  5      |  184     93     68     34     42     34     85  |  540
+  6      |  138    105     71     44     43     95     44  |  540
+  7      |  139     88    102     52     73     38     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  987    674    501    375    471    365    407  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   91     65     84     50    131     56     63  |  540
+  2      |  120     68     95     57    106     45     49  |  540
+  3      |  125    116     56     56     57     51     79  |  540
+  4      |  149     73     55     97     58     59     49  |  540
+  5      |  174     79     75     41     45     41     85  |  540
+  6      |  131     88     77     50     52    100     42  |  540
+  7      |  120     67    110     67     85     40     51  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  910    556    552    418    534    392    418  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   71     63     84     59    138     61     64  |  540
+  2      |   99     63     93     68    111     54     52  |  540
+  3      |  111    132     57     50     60     51     79  |  540
+  4      |  134     73     48     99     67     66     53  |  540
+  5      |  149     98     74     41     48     46     84  |  540
+  6      |  109     98     76     55     48    103     51  |  540
+  7      |   87     63    120     75     92     47     56  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  760    590    552    447    564    428    439  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   64     65     92     63    138     51     67  |  540
+  2      |   95     57     91     73    115     48     61  |  540
+  3      |  116    110     63     53     58     51     89  |  540
+  4      |  141     57     51    105     68     67     51  |  540
+  5      |  150     81     76     51     46     45     91  |  540
+  6      |  111     90     76     63     44    103     53  |  540
+  7      |   87     52    131     89     87     41     53  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  764    512    580    497    556    406    465  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   63     66     79     67    140     57     68  |  540
+  2      |   85     49     90     81    120     53     62  |  540
+  3      |  107    111     59     53     63     55     92  |  540
+  4      |  128     58     48    104     73     71     58  |  540
+  5      |  137     84     73     53     51     46     96  |  540
+  6      |  106     98     76     59     43    104     54  |  540
+  7      |   78     56    135     93     81     47     50  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  704    522    560    510    571    433    480  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   63     54     87     72    145     52     67  |  540
+  2      |   89     41     91     80    121     54     64  |  540
+  3      |  111    108     59     51     63     56     92  |  540
+  4      |  131     51     55    104     76     68     55  |  540
+  5      |  133     77     74     55     52     48    101  |  540
+  6      |  109     89     66     66     50    102     58  |  540
+  7      |   75     58    142     92     81     43     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  711    478    574    520    588    423    486  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   59     55     90     70    143     57     66  |  540
+  2      |   85     35     84     89    125     49     73  |  540
+  3      |  101    111     60     49     67     58     94  |  540
+  4      |  119     52     53    107     84     67     58  |  540
+  5      |  123     80     80     57     51     50     99  |  540
+  6      |  107     87     63     69     50    104     60  |  540
+  7      |   72     47    136     99     89     48     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  666    467    566    540    609    433    499  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   53     48     93     73    147     56     70  |  540
+  2      |   82     38     81     85    129     51     74  |  540
+  3      |  101    116     56     50     68     55     94  |  540
+  4      |  122     48     48    109     80     72     61  |  540
+  5      |  123     73     77     62     55     44    106  |  540
+  6      |  112     78     61     70     47    107     65  |  540
+  7      |   67     52    131    105     86     50     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  660    453    547    554    612    435    519  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   53     46     85     78    149     55     74  |  540
+  2      |   82     38     86     84    129     55     66  |  540
+  3      |  100    105     54     55     72     60     94  |  540
+  4      |  113     50     54    112     79     66     66  |  540
+  5      |  117     71     77     66     55     43    111  |  540
+  6      |  109     77     65     68     51    107     63  |  540
+  7      |   71     52    127    108     86     48     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  645    439    548    571    621    434    522  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   56     45     80     81    152     57     69  |  540
+  2      |   77     39     84     88    135     50     67  |  540
+  3      |   99     99     59     60     69     55     99  |  540
+  4      |  113     47     58    108     82     65     67  |  540
+  5      |  125     70     74     65     53     49    104  |  540
+  6      |  105     71     65     69     56    106     68  |  540
+  7      |   62     55    126    114     88     48     47  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  637    426    546    585    635    430    521  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   55     48     80     83    151     57     66  |  540
+  2      |   71     40     81     94    136     52     66  |  540
+  3      |   90    105     53     63     66     60    103  |  540
+  4      |  117     42     53    114     81     67     66  |  540
+  5      |  123     69     73     69     57     45    104  |  540
+  6      |  103     70     63     74     51    113     66  |  540
+  7      |   61     49    125    113     85     61     46  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  620    423    528    610    627    455    517  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     53     84     81    153     49     69  |  540
+  2      |   74     39     81     94    133     50     69  |  540
+  3      |   92     98     55     61     71     61    102  |  540
+  4      |  120     39     53    115     78     63     72  |  540
+  5      |  121     70     72     69     54     47    107  |  540
+  6      |  110     66     65     71     53    110     65  |  540
+  7      |   63     46    127    111     89     56     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  631    411    537    602    631    436    532  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     54     83     84    154     49     65  |  540
+  2      |   69     36     86     93    137     52     67  |  540
+  3      |   87     96     56     65     71     58    107  |  540
+  4      |  122     44     47    115     79     62     71  |  540
+  5      |  114     69     74     73     56     52    102  |  540
+  6      |  114     60     64     73     56    110     63  |  540
+  7      |   61     44    122    113     88     62     50  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  618    403    532    616    641    445    525  | 3780
+
+
+minErr =
+
+    0.3303
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     5
+
+
+bestStd =
+
+    0.0024
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   89     95    100     38     90     71     57  |  540
+  2      |  108    106     96     28     82     61     59  |  540
+  3      |  119    149     57     40     48     57     70  |  540
+  4      |  114     92     55     90     67     68     54  |  540
+  5      |  166    114     68     38     39     29     86  |  540
+  6      |  122    110     80     41     44    101     42  |  540
+  7      |   90    120    105     37     79     56     53  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  808    786    561    312    449    443    421  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  143    104     96     30     86     43     38  |  540
+  2      |  166    122     89     32     71     31     29  |  540
+  3      |  179    143     54     46     39     31     48  |  540
+  4      |  182    105     56     96     40     29     32  |  540
+  5      |  242     99     65     36     29     25     44  |  540
+  6      |  163    120     83     43     38     67     26  |  540
+  7      |  165    123     95     38     57     31     31  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1240    816    538    321    360    257    248  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  121     87     79     39     99     57     58  |  540
+  2      |  136     92     83     34    101     45     49  |  540
+  3      |  138    130     46     38     51     56     81  |  540
+  4      |  157     89     55     88     52     52     47  |  540
+  5      |  181     90     67     46     38     31     87  |  540
+  6      |  144    104     59     49     39     99     46  |  540
+  7      |  141     96     93     40     80     42     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1018    688    482    334    460    382    416  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   99     77     81     39    118     64     62  |  540
+  2      |  131     74     87     45    106     45     52  |  540
+  3      |  131    110     61     43     56     58     81  |  540
+  4      |  144     69     48    107     62     57     53  |  540
+  5      |  187     69     71     52     41     41     79  |  540
+  6      |  132     87     66     52     52    107     44  |  540
+  7      |  120     73    100     47     94     54     52  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  944    559    514    385    529    426    423  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   81     80     90     44    121     61     63  |  540
+  2      |  102     77     90     55    110     52     54  |  540
+  3      |  117    122     60     45     55     60     81  |  540
+  4      |  128     66     61    107     66     59     53  |  540
+  5      |  152     87     77     50     47     44     83  |  540
+  6      |  112     94     65     59     48    110     52  |  540
+  7      |   93     63    118     57    100     58     51  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  785    589    561    417    547    444    437  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   76     70     94     48    134     53     65  |  540
+  2      |  104     72     92     55    110     44     63  |  540
+  3      |  124    113     59     46     62     54     82  |  540
+  4      |  125     55     59    112     74     60     55  |  540
+  5      |  158     78     77     56     46     41     84  |  540
+  6      |  109     94     73     64     39    107     54  |  540
+  7      |   93     63    118     71    100     49     46  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  789    545    572    452    565    408    449  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   70     69     76     54    140     59     72  |  540
+  2      |   95     61     93     60    113     52     66  |  540
+  3      |  113    111     54     46     64     63     89  |  540
+  4      |  111     58     58    109     77     66     61  |  540
+  5      |  143     81     77     59     51     42     87  |  540
+  6      |  106     96     66     62     47    107     56  |  540
+  7      |   89     52    124     70    110     46     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  727    528    548    460    602    435    480  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   72     61     84     59    140     57     67  |  540
+  2      |   95     50     85     69    120     54     67  |  540
+  3      |  112    104     52     47     68     62     95  |  540
+  4      |  118     52     57    114     79     60     60  |  540
+  5      |  144     77     72     60     50     51     86  |  540
+  6      |  109     88     65     66     46    105     61  |  540
+  7      |   79     50    131     73    106     49     52  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  729    482    546    488    609    438    488  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   62     59     84     58    139     63     75  |  540
+  2      |   87     46     95     71    117     51     73  |  540
+  3      |  107    109     54     52     64     60     94  |  540
+  4      |  106     54     53    119     82     63     63  |  540
+  5      |  133     73     78     66     46     50     94  |  540
+  6      |  110     82     61     72     44    107     64  |  540
+  7      |   78     49    126     81    106     51     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  683    472    551    519    598    445    512  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   57     61     86     59    141     65     71  |  540
+  2      |   83     46     85     70    126     55     75  |  540
+  3      |  107    104     55     53     66     60     95  |  540
+  4      |  108     50     52    116     83     66     65  |  540
+  5      |  133     67     81     71     48     46     94  |  540
+  6      |  109     81     59     76     44    106     65  |  540
+  7      |   72     56    120     79    111     54     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  669    465    538    524    619    452    513  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   59     58     83     63    137     64     76  |  540
+  2      |   82     45     87     74    128     54     70  |  540
+  3      |  110    101     53     53     66     61     96  |  540
+  4      |  105     52     51    117     82     63     70  |  540
+  5      |  124     68     83     70     49     44    102  |  540
+  6      |  111     77     58     74     43    109     68  |  540
+  7      |   71     44    123     84    110     52     56  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  662    445    538    535    615    447    538  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   60     56     87     64    143     60     70  |  540
+  2      |   77     47     91     73    130     51     71  |  540
+  3      |  107     97     54     57     71     57     97  |  540
+  4      |  110     42     47    117     91     61     72  |  540
+  5      |  132     66     76     71     52     45     98  |  540
+  6      |  115     69     59     73     46    112     66  |  540
+  7      |   65     45    126     86    108     59     51  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  666    422    540    541    641    445    525  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     56     85     69    149     61     69  |  540
+  2      |   74     45     86     74    135     56     70  |  540
+  3      |   98    100     55     55     70     60    102  |  540
+  4      |  103     50     46    120     90     61     70  |  540
+  5      |  120     72     76     74     52     46    100  |  540
+  6      |  114     70     61     71     47    115     62  |  540
+  7      |   63     48    126     89    108     62     44  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  623    441    535    552    651    461    517  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   55     51     88     67    150     60     69  |  540
+  2      |   70     49     82     76    134     58     71  |  540
+  3      |   94     96     57     58     71     60    104  |  540
+  4      |  109     43     48    121     85     61     73  |  540
+  5      |  125     62     75     76     54     47    101  |  540
+  6      |  114     67     63     71     48    116     61  |  540
+  7      |   61     46    124     87    117     57     48  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  628    414    537    556    659    459    527  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   55     51     87     72    151     57     67  |  540
+  2      |   69     46     89     75    136     55     70  |  540
+  3      |   90    100     58     58     67     58    109  |  540
+  4      |  104     44     44    121     84     61     82  |  540
+  5      |  117     68     78     74     53     53     97  |  540
+  6      |  113     64     62     72     53    114     62  |  540
+  7      |   61     39    130     86    115     60     49  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  609    412    548    558    659    458    536  | 3780
+
+
+minErr =
+
+    0.3078
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     6
+
+
+bestStd =
+
+   7.9999e-04
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   95     97     88     35     91     69     65  |  540
+  2      |  114    109     96     26     81     56     58  |  540
+  3      |  112    149     61     43     46     63     66  |  540
+  4      |  120     86     61     97     58     70     48  |  540
+  5      |  165    114     80     35     38     30     78  |  540
+  6      |  121    110     77     43     52     94     43  |  540
+  7      |   95    133     95     38     75     54     50  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  822    798    558    317    441    436    408  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  144    109     88     34     85     40     40  |  540
+  2      |  178    125     82     27     71     27     30  |  540
+  3      |  176    137     55     48     42     40     42  |  540
+  4      |  175    102     66     97     38     33     29  |  540
+  5      |  245     96     75     32     28     23     41  |  540
+  6      |  161    118     85     42     39     66     29  |  540
+  7      |  175    127     84     38     59     24     33  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1254    814    535    318    362    253    244  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  120     91     73     38     97     55     66  |  540
+  2      |  141     90     76     43    105     36     49  |  540
+  3      |  132    140     45     42     52     56     73  |  540
+  4      |  154     74     61     93     57     57     44  |  540
+  5      |  181     98     76     44     36     23     82  |  540
+  6      |  144     97     62     48     46     95     48  |  540
+  7      |  151     92     81     46     82     35     53  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1023    682    474    354    475    357    415  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  100     82     77     40    115     60     66  |  540
+  2      |  127     76     80     50    114     44     49  |  540
+  3      |  123    122     56     43     57     64     75  |  540
+  4      |  144     61     64    104     65     58     44  |  540
+  5      |  179     77     79     55     42     33     75  |  540
+  6      |  130     85     72     53     53    102     45  |  540
+  7      |  116     70     98     55     91     54     56  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  919    573    526    400    537    415    410  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   82     81     78     48    125     58     68  |  540
+  2      |  106     86     85     59    109     38     57  |  540
+  3      |  109    128     57     45     58     62     81  |  540
+  4      |  119     60     70    105     65     66     55  |  540
+  5      |  154     93     77     52     46     41     77  |  540
+  6      |  111     89     71     62     46    107     54  |  540
+  7      |   97     69    112     60     95     48     59  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  778    606    550    431    544    420    451  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   80     72     78     51    133     53     73  |  540
+  2      |  108     74     80     60    115     44     59  |  540
+  3      |  115    113     60     48     65     55     84  |  540
+  4      |  121     51     64    112     75     62     55  |  540
+  5      |  158     83     75     55     46     42     81  |  540
+  6      |  115     88     68     65     42    108     54  |  540
+  7      |   94     64    112     70     96     48     56  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  791    545    537    461    572    412    462  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   71     68     76     55    144     49     77  |  540
+  2      |   98     69     83     63    114     54     59  |  540
+  3      |   98    122     58     51     63     61     87  |  540
+  4      |  107     55     65    113     74     66     60  |  540
+  5      |  143     84     78     58     46     44     87  |  540
+  6      |  102     87     69     68     47    114     53  |  540
+  7      |   90     68    119     62     98     46     57  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  709    553    548    470    586    434    480  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   65     63     81     57    147     55     72  |  540
+  2      |   90     57     87     70    119     50     67  |  540
+  3      |  107    109     61     49     68     58     88  |  540
+  4      |  108     43     64    115     80     68     62  |  540
+  5      |  148     71     78     59     53     46     85  |  540
+  6      |  103     87     65     74     43    109     59  |  540
+  7      |   89     59    122     68     99     45     58  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  710    489    558    492    609    431    491  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   66     61     81     60    144     56     72  |  540
+  2      |   80     59     84     70    120     54     73  |  540
+  3      |  103    107     60     49     65     64     92  |  540
+  4      |  102     48     61    121     83     62     63  |  540
+  5      |  132     78     76     63     48     50     93  |  540
+  6      |  110     73     64     75     45    110     63  |  540
+  7      |   84     55    123     69    101     51     57  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  677    481    549    507    606    447    513  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   62     59     82     61    148     58     70  |  540
+  2      |   83     50     84     72    127     53     71  |  540
+  3      |  103     99     61     52     74     62     89  |  540
+  4      |  106     44     59    119     81     65     66  |  540
+  5      |  137     67     74     69     52     48     93  |  540
+  6      |  108     78     63     73     42    111     65  |  540
+  7      |   77     57    112     72    106     58     58  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  676    454    535    518    630    455    512  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   66     61     77     64    145     55     72  |  540
+  2      |   84     47     86     71    128     55     69  |  540
+  3      |  101     99     54     54     73     65     94  |  540
+  4      |  101     44     59    118     82     64     72  |  540
+  5      |  124     68     80     69     51     46    102  |  540
+  6      |  110     72     58     74     46    113     67  |  540
+  7      |   78     54    117     78    104     52     57  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  664    445    531    528    629    450    533  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   59     59     81     64    149     54     74  |  540
+  2      |   71     51     87     73    133     53     72  |  540
+  3      |   96     99     54     53     76     65     97  |  540
+  4      |  103     40     57    121     88     63     68  |  540
+  5      |  126     67     79     72     52     47     97  |  540
+  6      |  113     71     57     72     49    113     65  |  540
+  7      |   67     56    117     79    116     51     54  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  635    443    532    534    663    446    527  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     63     77     69    153     57     70  |  540
+  2      |   71     48     82     75    137     54     73  |  540
+  3      |   98     98     56     56     71     62     99  |  540
+  4      |   98     40     56    123     89     59     75  |  540
+  5      |  122     69     74     75     52     45    103  |  540
+  6      |  113     68     55     72     52    114     66  |  540
+  7      |   67     48    118     81    123     51     52  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  620    434    518    551    677    442    538  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   51     56     82     69    155     57     70  |  540
+  2      |   66     49     78     77    137     58     75  |  540
+  3      |   90    100     61     57     66     63    103  |  540
+  4      |  107     39     56    122     84     58     74  |  540
+  5      |  127     62     72     77     50     50    102  |  540
+  6      |  112     66     57     72     55    113     65  |  540
+  7      |   61     48    120     83    119     56     53  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  614    420    526    557    666    455    542  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   48     55     81     73    156     54     73  |  540
+  2      |   68     47     83     78    138     53     73  |  540
+  3      |   87    100     60     57     71     64    101  |  540
+  4      |   98     44     53    126     80     59     80  |  540
+  5      |  124     67     79     74     47     51     98  |  540
+  6      |  108     69     52     71     58    115     67  |  540
+  7      |   65     46    114     91    115     55     54  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  598    428    522    570    665    451    546  | 3780
+
+Now running knn	
+minErr =
+
+    0.2608
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     7
+
+
+bestStd =
+
+    0.0011
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    117     46      5    119     46     82  |  540
+  2      |  134    132     76     10     95     42     51  |  540
+  3      |  101    155     79     40     53     74     38  |  540
+  4      |   71     73     96    124     69     86     21  |  540
+  5      |  173    127     81     13     43     33     70  |  540
+  6      |  101    118     90     38     57    109     27  |  540
+  7      |  160    156     26      2     81     34     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  865    878    494    232    517    424    370  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   99    157     79     39     54     74     38  |  540
+  4      |   70     74     96    124     70     86     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    120     91     38     56    108     25  |  540
+  7      |  165    156     25      2     80     31     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  869    884    494    230    519    415    369  | 3780
+
+
+minErr =
+
+    0.2596
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     9
+
+
+bestStd =
+
+    0.0027
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   99    156     80     39     54     74     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  874    882    496    230    519    410    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2593
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    15
+
+
+bestStd =
+
+    0.0017
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2580
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    16
+
+
+bestStd =
+
+    0.0013
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2571
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    18
+
+
+bestStd =
+
+    0.0028
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 126)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',126,0)">line 126</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 50)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',50,0)">line 50</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5);
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+} 
+Main
+{Undefined function 'prdataset' for input arguments of type 'double'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('RunPerlc', 'C:\Users\chakrova\PatternProject\RunPerlc.m', 10)" style="font-weight:bold">RunPerlc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunPerlc.m',10,0)">line 10</a>)
+        A = prdataset(data,classLabels);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 48)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',48,0)">line 48</a>)
+[perlErrorRate] = RunPerlc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+} 
+Main
+Now running knn	
+minErr =
+
+    0.7941
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+   8.3983e-04
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   73     55     96     95     75     84     62  |  540
+  2      |   63     65     84    110     76     80     62  |  540
+  3      |  100     83     59     49     76     65    108  |  540
+  4      |  102     78     60     83     70     70     77  |  540
+  5      |  106     91     54     64     61     62    102  |  540
+  6      |  103     82     59     60     66     76     94  |  540
+  7      |   50     50     90     98     83    100     69  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  597    504    502    559    507    537    574  | 3780
+
+
+minErr =
+
+    0.6707
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     2
+
+
+bestStd =
+
+    0.0038
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   78     63     85     56    124     68     66  |  540
+  2      |   96     63     90     62    106     61     62  |  540
+  3      |  112    116     55     48     66     44     99  |  540
+  4      |  148     92     51     50     61     62     76  |  540
+  5      |  122    105     55     37     54     75     92  |  540
+  6      |  108     96     54     62     66     63     91  |  540
+  7      |   55     86    107     79     70     97     46  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  719    621    497    394    547    470    532  | 3780
+
+
+minErr =
+
+    0.5184
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     3
+
+
+bestStd =
+
+    0.0032
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   95     70     88     51     95     83     58  |  540
+  2      |   94     89     82     51     85     78     61  |  540
+  3      |  122    147     55     39     52     45     80  |  540
+  4      |  133     91     61     48     67     63     77  |  540
+  5      |  140    107     66     44     47     51     85  |  540
+  6      |  111    124     65     43     45     76     76  |  540
+  7      |   84     88    127     60     63     80     38  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  779    716    544    336    454    476    475  | 3780
+
+
+minErr =
+
+    0.3594
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     4
+
+
+bestStd =
+
+    0.0015
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   82     86     96     44    105     70     57  |  540
+  2      |   98    102     91     47     90     56     56  |  540
+  3      |  116    160     59     44     46     51     64  |  540
+  4      |  129    102     52     85     61     62     49  |  540
+  5      |  163    121     62     30     37     36     91  |  540
+  6      |  122    106     88     42     47     92     43  |  540
+  7      |   90    112    112     42     77     49     58  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  800    789    560    334    463    416    418  | 3780
+
+
+minErr =
+
+    0.3274
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     5
+
+
+bestStd =
+
+    0.0017
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   89     95    100     38     90     71     57  |  540
+  2      |  108    106     96     28     82     61     59  |  540
+  3      |  119    149     57     40     48     57     70  |  540
+  4      |  114     92     55     90     67     68     54  |  540
+  5      |  166    114     68     38     39     29     86  |  540
+  6      |  122    110     80     41     44    101     42  |  540
+  7      |   90    120    105     37     79     56     53  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  808    786    561    312    449    443    421  | 3780
+
+
+minErr =
+
+    0.3068
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     6
+
+
+bestStd =
+
+    0.0021
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   95     97     88     35     91     69     65  |  540
+  2      |  114    109     96     26     81     56     58  |  540
+  3      |  112    149     61     43     46     63     66  |  540
+  4      |  120     86     61     97     58     70     48  |  540
+  5      |  165    114     80     35     38     30     78  |  540
+  6      |  121    110     77     43     52     94     43  |  540
+  7      |   95    133     95     38     75     54     50  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  822    798    558    317    441    436    408  | 3780
+
+
+minErr =
+
+    0.2632
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     7
+
+
+bestStd =
+
+    0.0022
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    117     46      5    119     46     82  |  540
+  2      |  134    132     76     10     95     42     51  |  540
+  3      |  101    155     79     40     53     74     38  |  540
+  4      |   71     73     96    124     69     86     21  |  540
+  5      |  173    127     81     13     43     33     70  |  540
+  6      |  101    118     90     38     57    109     27  |  540
+  7      |  160    156     26      2     81     34     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  865    878    494    232    517    424    370  | 3780
+
+
+minErr =
+
+    0.2599
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     8
+
+
+bestStd =
+
+    0.0025
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   99    157     79     39     54     74     38  |  540
+  4      |   70     74     96    124     70     86     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    120     91     38     56    108     25  |  540
+  7      |  165    156     25      2     80     31     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  869    884    494    230    519    415    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   99    156     80     39     54     74     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  874    882    496    230    519    410    369  | 3780
+
+
+minErr =
+
+    0.2583
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    10
+
+
+bestStd =
+
+    0.0020
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5  
+   Welcome to PRTools5. It is not fully compatible with PRTools4.
+   Go to http://37steps.com/prtools5-intro/ for transition notes or click <a href="http://37steps.com/prtools5-intro/">here</a>.
+--> There is a newer version of PRTools available
+
+   Type 'prnews' to open your browser for PRTools news
+
+
+PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: prcrossval: No priors found in dataset, class frequencies are used instead
+
+result =
+
+    0.8295
+
+
+std =
+
+    0.0058
+
+
+minErr =
+
+    0.8295
+
+
+bestDim =
+
+     1
+
+PR_Warning: getprior: testc: No priors found in dataset, class frequencies are used instead
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   99    321      0      0    120      0      0  |  540
+  2      |  106    293      0      0    141      0      0  |  540
+  3      |  250     69      0      0    221      0      0  |  540
+  4      |  205     30      0      0    305      0      0  |  540
+  5      |  231    182      0      0    127      0      0  |  540
+  6      |  220    110      0      0    210      0      0  |  540
+  7      |   52    338      0      0    150      0      0  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1163   1343      0      0   1274      0      0  | 3780
+
+PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: prcrossval: No priors found in dataset, class frequencies are used instead
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('perlc', 'C:\Users\chakrova\PatternProject\prtools\perlc.m', 102)" style="font-weight:bold">perlc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\perlc.m',102,0)">line 102</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 138)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',138,0)">line 138</a>)
+      [d, varargout{:}] = feval(mapp,a,pars{:});
+
+In <a href="matlab:helpUtils.errorDocCallback('mclassc', 'C:\Users\chakrova\PatternProject\prtools\mclassc.m', 90)" style="font-weight:bold">mclassc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\mclassc.m',90,0)">line 90</a>)
+      [v,varo{:}] = prmap(aa,classf);
+
+In <a href="matlab:helpUtils.errorDocCallback('perlc', 'C:\Users\chakrova\PatternProject\prtools\perlc.m', 135)" style="font-weight:bold">perlc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\perlc.m',135,0)">line 135</a>)
+		w = mclassc(a,prmapping(mfilename,{maxiter,eta,w_ini}));
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 138)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',138,0)">line 138</a>)
+      [d, varargout{:}] = feval(mapp,a,pars{:});
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 255)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',255,0)">line 255</a>)
+			w = train_data*classf; % training
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunPerlc', 'C:\Users\chakrova\PatternProject\RunPerlc.m', 16)" style="font-weight:bold">RunPerlc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunPerlc.m',16,0)">line 16</a>)
+       [result,std] = prcrossval(A,perlc,5,5)
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 48)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',48,0)">line 48</a>)
+[perlErrorRate] = RunPerlc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+} 
+Main
+    6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2583
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    19
+
+
+bestStd =
+
+    0.0026
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2578
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    33
+
+
+bestStd =
+
+    0.0026
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+minErr =
+
+    0.2576
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+    44
+
+
+bestStd =
+
+    0.0017
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+
+result =
+
+    0.8245
+
+
+std =
+
+    0.0105
+
+
+minErr =
+
+    0.8245
+
+
+bestDim =
+
+     1
+
+
+result =
+
+    0.8303
+
+
+std =
+
+    0.0033
+
+
+result =
+
+    0.7986
+
+
+std =
+
+    0.0121
+
+
+minErr =
+
+    0.7986
+
+
+bestDim =
+
+     3
+
+Now running knn	PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: pcaklm: No priors found in dataset, class frequencies are used instead
+PR_Warning: getprior: prcrossval: No priors found in dataset, class frequencies are used instead
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 50)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',50,0)">line 50</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5);
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+} 
+Main
+Now running knn	
+minErr =
+
+    0.7946
+
+
+bestK =
+
+     1
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0010
+
+
+result =
+
+    0.8714
+
+
+erredClass =
+
+   467   475   481   457   479   464   471
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   73     55     96     95     75     84     62  |  540
+  2      |   63     65     84    110     76     80     62  |  540
+  3      |  100     83     59     49     76     65    108  |  540
+  4      |  102     78     60     83     70     70     77  |  540
+  5      |  106     91     54     64     61     62    102  |  540
+  6      |  103     82     59     60     66     76     94  |  540
+  7      |   50     50     90     98     83    100     69  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  597    504    502    559    507    537    574  | 3780
+
+
+result =
+
+    0.8765
+
+
+erredClass =
+
+   420   448   456   448   497   514   530
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  120     85    137     97     52     30     19  |  540
+  2      |  114     92    132    104     54     33     11  |  540
+  3      |  158    121     84     65     51     33     28  |  540
+  4      |  175    114     72     92     48     23     16  |  540
+  5      |  181    131     73     63     43     23     26  |  540
+  6      |  159    107     77     65     76     26     30  |  540
+  7      |  102     99    119     95     74     41     10  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1009    749    694    581    398    209    140  | 3780
+
+
+minErr =
+
+    0.7931
+
+
+bestK =
+
+     3
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0031
+
+
+result =
+
+    0.8802
+
+
+erredClass =
+
+   406   450   462   468   512   514   515
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  134     79    114     73     54     48     38  |  540
+  2      |  123     90    118     83     51     42     33  |  540
+  3      |  157    107     78     67     37     24     70  |  540
+  4      |  189    112     59     72     33     31     44  |  540
+  5      |  166    136     68     56     28     30     56  |  540
+  6      |  179    104     65     59     42     26     65  |  540
+  7      |  127     95    111     80     54     48     25  |  540
+ --------|-------------------------------------------------|-------
+  Totals | 1075    723    613    490    299    249    331  | 3780
+
+
+minErr =
+
+    0.7917
+
+
+bestK =
+
+     4
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0011
+
+
+result =
+
+    0.8868
+
+
+erredClass =
+
+   437   466   486   462   506   491   504
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  103     65    107     77     76     66     46  |  540
+  2      |  100     74    110     87     65     57     47  |  540
+  3      |  137     99     54     71     53     39     87  |  540
+  4      |  168     96     50     78     46     47     55  |  540
+  5      |  150    113     50     65     34     51     77  |  540
+  6      |  153     83     57     64     54     49     80  |  540
+  7      |  121     64    100     84     70     65     36  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  932    594    528    526    398    374    428  | 3780
+
+
+minErr =
+
+    0.7805
+
+
+bestK =
+
+     5
+
+
+bestDim =
+
+     1
+
+
+bestStd =
+
+    0.0035
+
+
+result =
+
+    0.8839
+
+
+erredClass =
+
+   450   481   487   438   493   484   508
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |   90     54    116     82     90     62     46  |  540
+  2      |   91     59    112    108     76     52     42  |  540
+  3      |  133     90     53     76     57     48     83  |  540
+  4      |  142     81     48    102     56     54     57  |  540
+  5      |  142     93     56     71     47     64     67  |  540
+  6      |  148     64     58     75     57     56     82  |  540
+  7      |   92     51    111     97     85     72     32  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  838    492    554    611    468    408    409  | 3780
+
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('knn_map', 'C:\Users\chakrova\PatternProject\prtools\knn_map.m', 89)" style="font-weight:bold">knn_map</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\knn_map.m',89,0)">line 89</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 229)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',229,0)">line 229</a>)
+		[d,varargout{:}] = feval(mapp,a,b);
+
+In * (line 14)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 260)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',260,0)">line 260</a>)
+			testres = data(JOUT,:)*w;
+
+In <a href="matlab:helpUtils.errorDocCallback('prcrossval', 'C:\Users\chakrova\PatternProject\prtools\prcrossval.m', 173)" style="font-weight:bold">prcrossval</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prcrossval.m',173,0)">line 173</a>)
+					[ee(j),ss,nlabout] = feval(mfilename,data,classf,n,1,testf);
+
+In <a href="matlab:helpUtils.errorDocCallback('RunKnnc', 'C:\Users\chakrova\PatternProject\RunKnnc.m', 50)" style="font-weight:bold">RunKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\RunKnnc.m',50,0)">line 50</a>)
+            [result,crossvalStd] = prcrossval(A,knnc([],k),5,5);
+
+In <a href="matlab:helpUtils.errorDocCallback('Main', 'C:\Users\chakrova\PatternProject\Main.m', 36)" style="font-weight:bold">Main</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\Main.m',36,0)">line 36</a>)
+% knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+} 
+TestKnnc
+{Error using <a href="matlab:helpUtils.errorDocCallback('fscanf')" style="font-weight:bold">fscanf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('LoadData', 'C:\Users\chakrova\PatternProject\LoadData.m', 12)" style="font-weight:bold">LoadData</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\LoadData.m',12,0)">line 12</a>)
+    data = fscanf(fileId,formatSpec,sizeData);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('TestKnnc', 'C:\Users\chakrova\PatternProject\TestKnnc.m', 4)" style="font-weight:bold">TestKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\TestKnnc.m',4,0)">line 4</a>)
+initTestIntData = LoadData('testing_set_final_labeled/test_x_int_L.txt');
+} 
+TestKnnc
+
+result =
+
+    0.8167
+
+
+erredClass =
+
+   415   409   460   416   496   432   459
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+TestKnnc
+{Error using <a href="matlab:helpUtils.errorDocCallback('prmap', 'C:\Users\chakrova\PatternProject\prtools\prmap.m', 77)" style="font-weight:bold">prmap</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\prtools\prmap.m',77,0)">line 77</a>)
+Output size of first argument should match input size of second.
+Checking sizes might be skipped by defining global CHECK_SIZES = false
+
+Error in * (line 14)
+
+
+Error in <a href="matlab:helpUtils.errorDocCallback('TestKnnc', 'C:\Users\chakrova\PatternProject\TestKnnc.m', 36)" style="font-weight:bold">TestKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\TestKnnc.m',36,0)">line 36</a>)
+classification = B*w;
+} 
+TestKnnc
+
+result =
+
+    0.8167
+
+
+erredClass =
+
+   415   409   460   416   496   432   459
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  125    119     45      5    119     43     84  |  540
+  2      |  134    131     77     10     96     41     51  |  540
+  3      |   98    156     80     39     54     75     38  |  540
+  4      |   72     73     96    124     70     85     20  |  540
+  5      |  174    127     81     12     44     32     70  |  540
+  6      |  102    119     92     38     56    108     25  |  540
+  7      |  168    157     25      2     80     27     81  |  540
+ --------|-------------------------------------------------|-------
+  Totals |  873    882    496    230    519    411    369  | 3780
+
+data = LoadData('testing_set_final_labeled/train_x.txt')
+{Error using <a href="matlab:helpUtils.errorDocCallback('fscanf')" style="font-weight:bold">fscanf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('LoadData', 'C:\Users\chakrova\PatternProject\LoadData.m', 12)" style="font-weight:bold">LoadData</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\LoadData.m',12,0)">line 12</a>)
+    data = fscanf(fileId,formatSpec,sizeData);
+} 
+data = LoadData('testing_set_final_labeled/train_x.txt')
+
+fileId =
+
+    -1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('fscanf')" style="font-weight:bold">fscanf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('LoadData', 'C:\Users\chakrova\PatternProject\LoadData.m', 12)" style="font-weight:bold">LoadData</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\LoadData.m',12,0)">line 12</a>)
+    data = fscanf(fileId,formatSpec,sizeData);
+} 
+TestKnnc
+
+fileId =
+
+    22
+
+
+fileId =
+
+    -1
+
+{Error using <a href="matlab:helpUtils.errorDocCallback('fscanf')" style="font-weight:bold">fscanf</a>
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('LoadData', 'C:\Users\chakrova\PatternProject\LoadData.m', 12)" style="font-weight:bold">LoadData</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\LoadData.m',12,0)">line 12</a>)
+    data = fscanf(fileId,formatSpec,sizeData);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('TestKnnc', 'C:\Users\chakrova\PatternProject\TestKnnc.m', 4)" style="font-weight:bold">TestKnnc</a> (<a href="matlab: opentoline('C:\Users\chakrova\PatternProject\TestKnnc.m',4,0)">line 4</a>)
+initTestIntData = LoadData('testing_set_int_labeled/test_x_final_L.txt');
+} 
+TestKnnc
+
+fileId =
+
+    23
+
+
+fileId =
+
+    24
+
+
+result =
+
+    0.7657
+
+
+erredClass =
+
+   286   278   332   287   343   301   317
+
+
+  True   | Estimated Labels
+  Labels |    1      2      3      4      5      6      7  | Totals
+ --------|-------------------------------------------------|-------
+  1      |  114    120     31      2     59     24     50  |  400
+  2      |   94    122     43      6     78     34     23  |  400
+  3      |   66    100     68     19     53     71     23  |  400
+  4      |   51     60     75    113     33     58     10  |  400
+  5      |  109     84     60      4     57     43     43  |  400
+  6      |   69     93     54     25     38     99     22  |  400
+  7      |  128     78     22      1     59     29     83  |  400
+ --------|-------------------------------------------------|-------
+  Totals |  631    657    353    170    377    358    254  | 2800
+
+Main

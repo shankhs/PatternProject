@@ -1,10 +1,11 @@
 clear;
 clc;
+% 
 PARTITION=5;
 REPEAT=5;
 MAX_DIM=54;
-diary('diary2.txt');
-diary on;
+% diary('diary.txt');
+% diary on;
 initData = LoadData('training_set/train_x.txt');
 classLabels = LoadClassLabels('training_set/train_y.txt');
 initData = initData';
@@ -28,29 +29,27 @@ initTestIntData = initTestIntData';
 
 %run svm
 fprintf('Now running svm\n')
-% linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel);
-gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel);
+linearSvmErrorRate = RunLinearSVM(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% gaussianSvmErrorRate = RunGaussianSVM(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
 %run knn
 % -----------------------------------------------------------------------------------------------
-fprintf('Now running knn\t')
-knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,6);
-dlmwrite('knnErrorRate.txt',knnErrorRate);
-DrawPlot(knnErrorRate,'knnErrorPlot');
+% fprintf('Now running knn\t')
+% knnErrorRate = RunKnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
+% dlmwrite('knnErrorRate.txt',knnErrorRate);
+% DrawPlot(knnErrorRate,'knnErrorPlot');
 % -----------------------------------------------------------------------------------------------
 %run ldc
 % -----------------------------------------------------------------------------------------------
 % fprintf('Now running ldc')
-% ldcErrorRate = RunLdc(initData,classLabels,initTestIntData,initTestIntLabel,30);
+% ldcErrorRate = RunLdc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
 % dlmwrite('ldcErrorRate.txt',ldcErrorRate);
 % DrawPlot(ldcErrorRate,'ldcErrorPlot');
 % -----------------------------------------------------------------------------------------------
 %run perlc
+% fprintf('Now running perlc')
 % [perlErrorRate] = RunPerlc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
 % dlmwrite('perlErrorRate.txt',perlErrorRate);
 % DrawPlot(perlErrorRate,'perlErrorRate');
 % -----------------------------------------------------------------------------------------------
-%run artificial neural network
-% [annErrorRate] = RunAnnc(initData,classLabels,initTestIntData,initTestIntLabel,MAX_DIM);
-% dlmwrite('AnnErrorRate.txt',annErrorRate);
-% DrawPlot(annErrorRate,'annErrorRate');
-diary off,;
+
+% diary off,;
